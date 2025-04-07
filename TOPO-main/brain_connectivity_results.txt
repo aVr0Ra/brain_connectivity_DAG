@@ -1,0 +1,315 @@
+C:\Python312\python.exe D:\FinalProject\TOPO-main\brain_connectivity.py
+
+Current dataset: # 1
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 6588
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0206s
+Metrics: {'fdr': 0.0, 'tpr': 0.8, 'fpr': 0.0, 'shd': 1, 'nnz': 4, 'precision': np.float64(1.0), 'recall': np.float64(0.8), 'F1': np.float64(0.8889), 'gscore': np.float64(0.8)}
+
+Current dataset: # 2
+Original ts shape: (10000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
+Combined X shape: (10000, 10)
+B_true_linear shape: (10, 10)
+random seed: 377
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 0.6618s
+Metrics: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}
+
+Current dataset: # 3
+Original ts shape: (10000, 15)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 15)
+Combined X shape: (10000, 15)
+B_true_linear shape: (15, 15)
+random seed: 8491
+Parameter is automatically set up.
+ size_small: 22, size_large: 63, no_large_search: 1
+Linear model time: 2.5661s
+Metrics: {'fdr': 0.75, 'tpr': 0.1111, 'fpr': 0.069, 'shd': 16, 'nnz': 8, 'precision': np.float64(0.25), 'recall': np.float64(0.1111), 'F1': np.float64(0.1538), 'gscore': np.float64(0.0)}
+
+Current dataset: # 4
+Original ts shape: (10000, 50)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 50)
+Combined X shape: (10000, 50)
+B_true_linear shape: (50, 50)
+random seed: 9869
+Parameter is automatically set up.
+ size_small: 75, size_large: 588, no_large_search: 1
+Linear model time: 255.8687s
+Metrics: {'fdr': 0.4194, 'tpr': 0.2951, 'fpr': 0.0112, 'shd': 43, 'nnz': 31, 'precision': np.float64(0.5806), 'recall': np.float64(0.2951), 'F1': np.float64(0.3913), 'gscore': np.float64(0.082)}
+
+Current dataset: # 5
+Original ts shape: (60000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 1200, 5)
+Combined X shape: (60000, 5)
+B_true_linear shape: (5, 5)
+random seed: 2135
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.2018s
+Metrics: {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.4), 'F1': np.float64(0.5714), 'gscore': np.float64(0.4)}
+
+Current dataset: # 6
+Original ts shape: (60000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 1200, 10)
+Combined X shape: (60000, 10)
+B_true_linear shape: (10, 10)
+random seed: 5410
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 2.4729s
+Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
+
+Current dataset: # 7
+Original ts shape: (250000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 5000, 5)
+Combined X shape: (250000, 5)
+B_true_linear shape: (5, 5)
+random seed: 8291
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 2.1662s
+Metrics: {'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': np.float64(0.5), 'recall': np.float64(0.2), 'F1': np.float64(0.2857), 'gscore': np.float64(0.0)}
+
+Current dataset: # 8
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 4882
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0292s
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'F1': np.float64(1.0), 'gscore': np.float64(1.0)}
+
+Current dataset: # 9
+Original ts shape: (250000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 5000, 5)
+Combined X shape: (250000, 5)
+B_true_linear shape: (5, 5)
+random seed: 8153
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 1.0678s
+Metrics: {'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.8), 'F1': np.float64(0.8), 'gscore': np.float64(0.6)}
+
+Current dataset: # 10
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 5536
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0197s
+Metrics: {'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': np.float64(0.4), 'recall': np.float64(0.4), 'F1': np.float64(0.4), 'gscore': np.float64(0.0)}
+
+Current dataset: # 11
+Original ts shape: (10000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
+Combined X shape: (10000, 10)
+B_true_linear shape: (10, 10)
+random seed: 665
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 0.3790s
+Metrics: {'fdr': 0.5714, 'tpr': 0.2727, 'fpr': 0.1176, 'shd': 11, 'nnz': 7, 'precision': np.float64(0.4286), 'recall': np.float64(0.2727), 'F1': np.float64(0.3333), 'gscore': np.float64(0.0)}
+
+Current dataset: # 12
+Original ts shape: (10000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
+Combined X shape: (10000, 10)
+B_true_linear shape: (10, 10)
+random seed: 1977
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 0.5900s
+Metrics: {'fdr': 0.0, 'tpr': 0.0909, 'fpr': 0.0, 'shd': 10, 'nnz': 1, 'precision': np.float64(1.0), 'recall': np.float64(0.0909), 'F1': np.float64(0.1667), 'gscore': np.float64(0.0909)}
+
+Current dataset: # 13
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 840
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0370s
+Metrics: {'fdr': 0.0, 'tpr': 0.0, 'fpr': 0.0, 'shd': 5, 'nnz': 0, 'precision': np.float64(nan), 'recall': np.float64(0.0), 'F1': np.float64(nan), 'gscore': np.float64(0.0)}
+
+Current dataset: # 14
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 9927
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:233: RuntimeWarning: invalid value encountered in scalar divide
+  precision = TP/TP_FP
+Linear model time: 0.0294s
+Metrics: {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}
+
+Current dataset: # 15
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 3231
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0478s
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'F1': np.float64(1.0), 'gscore': np.float64(1.0)}
+
+Current dataset: # 16
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 2753
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0303s
+Metrics: {'fdr': 0.0, 'tpr': 0.2857, 'fpr': 0.0, 'shd': 5, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.2857), 'F1': np.float64(0.4444), 'gscore': np.float64(0.2857)}
+
+Current dataset: # 17
+Original ts shape: (10000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
+Combined X shape: (10000, 10)
+B_true_linear shape: (10, 10)
+random seed: 561
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 0.5291s
+Metrics: {'fdr': 0.5455, 'tpr': 0.4545, 'fpr': 0.1765, 'shd': 6, 'nnz': 11, 'precision': np.float64(0.4545), 'recall': np.float64(0.4545), 'F1': np.float64(0.4545), 'gscore': np.float64(0.0)}
+
+Current dataset: # 18
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 1302
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0287s
+Metrics: {'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.2), 'F1': np.float64(0.2222), 'gscore': np.float64(0.0)}
+
+Current dataset: # 19
+Original ts shape: (120000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 2400, 5)
+Combined X shape: (120000, 5)
+B_true_linear shape: (5, 5)
+random seed: 9338
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.4157s
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'F1': np.float64(1.0), 'gscore': np.float64(1.0)}
+
+Current dataset: # 20
+Original ts shape: (120000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 2400, 5)
+Combined X shape: (120000, 5)
+B_true_linear shape: (5, 5)
+random seed: 5858
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.5832s
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': np.float64(1.0), 'recall': np.float64(1.0), 'F1': np.float64(1.0), 'gscore': np.float64(1.0)}
+
+Current dataset: # 21
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 6831
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0193s
+Metrics: {'fdr': 0.0, 'tpr': 0.6, 'fpr': 0.0, 'shd': 2, 'nnz': 3, 'precision': np.float64(1.0), 'recall': np.float64(0.6), 'F1': np.float64(0.75), 'gscore': np.float64(0.6)}
+
+Current dataset: # 22
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 6348
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Linear model time: 0.0283s
+Metrics: {'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.8, 'shd': 5, 'nnz': 4, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'F1': np.float64(nan), 'gscore': np.float64(0.0)}
+
+Current dataset: # 23
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 8380
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0203s
+Metrics: {'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': np.float64(0.4), 'recall': np.float64(0.4), 'F1': np.float64(0.4), 'gscore': np.float64(0.0)}
+
+Current dataset: # 24
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 990
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0194s
+Metrics: {'fdr': 0.5, 'tpr': 0.6, 'fpr': 0.6, 'shd': 3, 'nnz': 6, 'precision': np.float64(0.5), 'recall': np.float64(0.6), 'F1': np.float64(0.5455), 'gscore': np.float64(0.0)}
+
+Current dataset: # 25
+Original ts shape: (5000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 100, 5)
+Combined X shape: (5000, 5)
+B_true_linear shape: (5, 5)
+random seed: 5935
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0360s
+Metrics: {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.4), 'F1': np.float64(0.5714), 'gscore': np.float64(0.4)}
+
+Current dataset: # 26
+Original ts shape: (2500, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 50, 5)
+Combined X shape: (2500, 5)
+B_true_linear shape: (5, 5)
+random seed: 8947
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0142s
+Metrics: {'fdr': 0.3333, 'tpr': 0.4, 'fpr': 0.2, 'shd': 3, 'nnz': 3, 'precision': np.float64(0.6667), 'recall': np.float64(0.4), 'F1': np.float64(0.5), 'gscore': np.float64(0.2)}
+
+Current dataset: # 27
+Original ts shape: (2500, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 50, 5)
+Combined X shape: (2500, 5)
+B_true_linear shape: (5, 5)
+random seed: 4428
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0143s
+Metrics: {'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': np.float64(0.6), 'recall': np.float64(0.6), 'F1': np.float64(0.6), 'gscore': np.float64(0.2)}
+
+Current dataset: # 28
+Original ts shape: (5000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 100, 5)
+Combined X shape: (5000, 5)
+B_true_linear shape: (5, 5)
+random seed: 3931
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0259s
+Metrics: {'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': np.float64(0.6), 'recall': np.float64(0.6), 'F1': np.float64(0.6), 'gscore': np.float64(0.2)}
+
+进程已结束，退出代码为 0
