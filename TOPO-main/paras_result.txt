@@ -1,0 +1,2440 @@
+C:\Python312\python.exe D:\Final_Project\brain_connectivity_DAG\TOPO-main\topo_linear.py
+Random seed: 2139
+开始网格搜索调参...
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.1463s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9318s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8539s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9391s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8702s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9155s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.1024s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8841s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8397s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7520s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6030s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7102s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8727s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8151s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7729s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8587s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6603s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6440s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5075s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 9.0083s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7413s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7957s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9261s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5791s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7637s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8457s
+
+测试参数: T_init=0.5, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8450s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8772s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8747s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9873s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0379s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8717s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9279s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9204s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9348s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8857s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6411s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.5964s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7903s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7148s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7581s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6203s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7841s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7448s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6254s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.3819s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6708s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6621s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.4689s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5948s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5252s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6011s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.4417s
+
+测试参数: T_init=0.5, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5652s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8824s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8327s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8910s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8995s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8364s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8084s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8475s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8766s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8949s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6219s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8238s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6332s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7613s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7058s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 6.0583s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8860s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.9311s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7688s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7461s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8149s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5925s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6973s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9906s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 9.0463s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 9.6115s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7770s
+
+测试参数: T_init=0.5, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8376s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8664s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8757s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9113s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9786s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8765s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9995s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9575s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9575s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8867s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8350s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8795s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7096s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7067s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7200s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 6.0100s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7016s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7584s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8491s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5334s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 9.0084s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5357s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9372s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5710s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6836s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 9.1302s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7974s
+
+测试参数: T_init=1.0, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 9.1731s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9960s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9702s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9761s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9963s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9472s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0205s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0206s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0378s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0261s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6584s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6913s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6503s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6226s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6955s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.9180s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7472s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6851s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7642s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.4481s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9105s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8885s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7002s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7702s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5261s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5205s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6815s
+
+测试参数: T_init=1.0, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9184s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9233s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8910s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0396s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0237s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9672s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0095s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9882s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9554s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0138s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.9805s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8425s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8165s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.9300s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 6.0866s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8574s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7650s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8791s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7334s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6601s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6299s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 9.0169s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8722s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8991s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6495s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.2676s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.2917s
+
+测试参数: T_init=1.0, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.4776s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8315s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8640s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.7751s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8206s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8597s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9211s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9184s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8873s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8135s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.5069s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.9955s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.5580s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.4214s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.4589s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6701s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7153s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.9096s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8437s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8918s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7067s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7252s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7070s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5351s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8126s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7850s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 9.1160s
+
+测试参数: T_init=2.0, cooling_rate=0.9, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9268s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0560s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9706s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9944s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9192s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9870s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9862s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9160s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 3.0463s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9300s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7998s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.9079s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6255s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6809s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6423s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7858s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6617s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 6.0758s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6785s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.4354s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8536s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.4995s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9068s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7374s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.4882s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7290s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.5166s
+
+测试参数: T_init=2.0, cooling_rate=0.95, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.4635s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8420s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9343s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9156s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9154s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8763s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9516s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8983s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.8666s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 2.9501s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8514s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8508s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.6939s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8739s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.7146s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8557s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 6.1875s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 5.8656s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 6.0491s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9748s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7987s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=10, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.7369s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.9204s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8556s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=20, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.8740s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6840s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=2
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6462s
+
+测试参数: T_init=2.0, cooling_rate=0.98, max_iter=150, global_no_improve=30, perturb_swaps=3
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+结果指标: {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 耗时: 8.6917s
+
+调参结束。
+最佳参数组合: (0.5, 0.9, 50, 10, 1) 对应 F1 = 0
+
+所有参数组合结果：
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.146302299999661}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9318466000004264}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.853912099999434}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.939129899998079}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8701733000016247}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9155494000006}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.10244640000019}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8840984999987995}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.839702599998418}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.7519674000031955}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.602959499999997}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.710157999998046}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.872654099999636}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.815122300002258}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.772861800000101}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.858742699998402}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.660265499998786}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.6439953000008245}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.507530099999713}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 9.008315700000821}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.741314200000488}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.795686899997236}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.926147799997125}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.579059499999858}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.76367780000146}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.845740900000237}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.845044099998631}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8771788999983983}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.874717500002589}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9872801000019535}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.037909300001047}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.871712500000285}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.927872100000968}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9203882000001613}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.934818900001119}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.885722499999247}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.6411366000029375}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.5964356000004045}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.790336400001252}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.714761900002486}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.758104399999866}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.620292900002823}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.7841184999997495}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.744816399997944}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.6254293999991205}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.381884299997182}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.670803699998942}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.662123699999938}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.468896599999425}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.594777099999192}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.525181900000462}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.60110110000096}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.441669100000581}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.565151499999047}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8823561999997764}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8326683999985107}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8910031000013987}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8994760000023234}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.836385300000984}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8083507000010286}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8475269000009575}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.876640000002226}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8949037000020326}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.6218860000008135}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.823804999999993}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.633232399999542}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.7613006999999925}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.705763099998876}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 6.058299800002715}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.885972900003253}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.931118399999832}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.76876799999809}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.746147599998949}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.81494720000046}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.592507599998498}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.697309099999984}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.990585799998371}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 9.046283299998322}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 9.611532400002034}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.776979700000084}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.837596500001382}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8663630000010016}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8756731000030413}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9112854999984847}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9786462999982177}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8765332000002672}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9995197000025655}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9575061999967147}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9574575000006007}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.886652500001219}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.835042599999724}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.879518800000369}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.709591300001193}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.706710399997974}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.71998320000057}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 6.010020500001701}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.701589800002694}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.7583782999972755}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.849077999999281}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.533438400001614}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 9.008394399999816}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.535704999998416}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.937157000000298}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.571011799998814}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.683606799997506}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 9.130171400000108}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.797409000002517}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 9.173073900001327}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.996003699998255}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9702154000005976}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9761156999993545}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9963300000017625}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.947199800000817}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.0205466999977943}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.0205862000002526}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.0377926000001025}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.026076499998453}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.658419499999582}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.691290700000536}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.650273400002334}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.622558499999286}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.6955299000001105}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.918008800003008}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.747248100000434}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.685077900001488}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.764188499997545}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.448123800000758}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.910538199997973}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.88845549999678}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.700194799999736}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.77019890000156}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.526125599997613}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.520488800000749}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.681533800001489}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.918435600000521}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9233449999992445}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.890957999999955}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.039614299999812}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.0237496999980067}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9672108000013395}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.009456900002988}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9881654999990133}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9554179000006116}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.013791699999274}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.980544399997598}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.842502200001036}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.816541600001074}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.92995449999944}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 6.08659070000067}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.857405899998412}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.765035700002045}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.879053199998452}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.733448399998451}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.66007250000257}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.629910599996947}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 9.016901200000575}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.872226999999839}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.899083999996947}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.649462299999868}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.267603799999051}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.29167840000082}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.477625600000465}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.83149389999744}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.864012600002752}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.775137199998426}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.820605200002319}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.859705800001393}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.921141599999828}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.918400800001109}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.887293599997065}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.813499400002911}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.506914300000062}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.9955145999992965}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.557985999999801}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.421440999998595}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.458900400000857}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.670079800001986}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.7152585000003455}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.90964719999829}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.843710799999826}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.891822000001412}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.70673220000026}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.725152200000593}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.706954100001894}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.535139600000548}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.81261010000162}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.78496030000315}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 9.115998500001297}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.926797099997202}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.056044299999485}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.97056430000157}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.994443700001284}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.919207800001459}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.986954700001661}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.986164000001736}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.915996700001415}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 3.046251100000518}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.930002899996907}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.79981509999925}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.90788590000011}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.625495099997352}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.680929000001925}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.6423383000001195}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.785804899998766}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.661658799999714}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 6.075823500003025}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.678530500001216}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.435434299997723}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.853592799998296}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.499529599997913}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.906764999999723}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.737379000001965}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.48816579999766}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.729029599999194}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.516591399999015}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.463458399997762}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.841953700000886}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9342881000011403}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9155968000013672}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.915428600001178}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8763037999997323}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9515903999999864}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.8983011999989685}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.86664159999782}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 2.9501443000008294}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.851402300002519}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.8508302999980515}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.693880800001352}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.873864099998173}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.714558399999078}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.855729399998381}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 6.187463500002195}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 5.86557829999947}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 6.049058699998568}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.974810499999876}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.798650500000804}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 10, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.736888600000384}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.920434300001943}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.855634999999893}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 20, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.873962699999538}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 1, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.684049499999674}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 2, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.646174699999392}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 150, 'global_no_improve': 30, 'perturb_swaps': 3, 'metrics': {'fdr': 0.555556, 'tpr': 1.0, 'fpr': 1.0, 'shd': 25, 'nnz': 45}, 'time': 8.691739599998982}
+
+进程已结束，退出代码为 0
