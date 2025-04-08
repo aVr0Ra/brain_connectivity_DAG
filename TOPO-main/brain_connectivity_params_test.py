@@ -15,7 +15,7 @@ print(f"Random seed: {rd_int}")
 utils.set_random_seed(rd_int)
 
 # 只使用 sim1.mat 数据
-data_path = os.path.join("..", "datasets", "sims", "sim2.mat")
+data_path = os.path.join("..", "datasets", "sims", "sim14.mat")
 data = loadmat(data_path)
 print("Loaded data from:", data_path)
 

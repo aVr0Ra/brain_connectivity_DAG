@@ -1,809 +1,807 @@
 C:\Python312\python.exe D:\Final_Project\brain_connectivity_DAG\TOPO-main\brain_connectivity_params_test.py
-Random seed: 838
-Loaded data from: ..\datasets\sims\sim2.mat
-Original ts shape: (10000, 10)
-Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
-Combined X shape: (10000, 10)
-B_true_linear shape: (10, 10)
+Random seed: 2031
+Loaded data from: ..\datasets\sims\sim14.mat
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
 开始网格搜索调参...
 
 测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 7.5856s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.7023s
 
 测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}, 耗时: 7.3594s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6626s
 
 测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 7.1686s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6053s
 
 测试参数: T_init=0.5, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}
-参数组合结果: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}, 耗时: 7.1324s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.5806s
 
 测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}
-参数组合结果: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}, 耗时: 14.7928s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.4), 'F1': np.float64(0.5714), 'gscore': np.float64(0.4)}
+参数组合结果: {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.4), 'F1': np.float64(0.5714), 'gscore': np.float64(0.4)}, 耗时: 3.1892s
 
 测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.6667, 'tpr': 0.1818, 'fpr': 0.1176, 'shd': 9, 'nnz': 6, 'precision': np.float64(0.3333), 'recall': np.float64(0.1818), 'F1': np.float64(0.2353), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.6667, 'tpr': 0.1818, 'fpr': 0.1176, 'shd': 9, 'nnz': 6, 'precision': np.float64(0.3333), 'recall': np.float64(0.1818), 'F1': np.float64(0.2353), 'gscore': np.float64(0.0)}, 耗时: 15.1468s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.2611s
 
 测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 14.3564s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.2857s
 
 测试参数: T_init=0.5, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.0, 'tpr': 0.3636, 'fpr': 0.0, 'shd': 7, 'nnz': 4, 'precision': np.float64(1.0), 'recall': np.float64(0.3636), 'F1': np.float64(0.5333), 'gscore': np.float64(0.3636)}
-参数组合结果: {'fdr': 0.0, 'tpr': 0.3636, 'fpr': 0.0, 'shd': 7, 'nnz': 4, 'precision': np.float64(1.0), 'recall': np.float64(0.3636), 'F1': np.float64(0.5333), 'gscore': np.float64(0.3636)}, 耗时: 14.0817s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.2), 'F1': np.float64(0.2222), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.2), 'F1': np.float64(0.2222), 'gscore': np.float64(0.0)}, 耗时: 3.2251s
 
 测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 8.0993s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}
+参数组合结果: {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}, 耗时: 1.6175s
 
 测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.2062s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6210s
 
 测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 7.9463s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6608s
 
 测试参数: T_init=0.5, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.8548s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6723s
 
 测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}, 耗时: 15.5520s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.3368s
 
 测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}, 耗时: 15.1152s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.1584s
 
 测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}
-参数组合结果: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}, 耗时: 14.7990s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.1827s
 
 测试参数: T_init=0.5, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 16.0951s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.1810s
 
 测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.1199s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6356s
 
 测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.4053s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.5936s
 
 测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 7.1462s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.5804s
 
 测试参数: T_init=0.5, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 7.7618s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6146s
 
 测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}, 耗时: 14.2439s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.1753s
 
 测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 15.2304s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.2671s
 
 测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 15.1018s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.3230s
 
 测试参数: T_init=0.5, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 16.0254s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.2807s
 
 测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}
-参数组合结果: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}, 耗时: 7.4195s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6027s
 
 测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.2900s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6016s
 
 测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.9825s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6340s
 
 测试参数: T_init=1.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}, 耗时: 7.4630s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6111s
 
 测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 14.1714s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.3333, 'tpr': 0.4, 'fpr': 0.2, 'shd': 3, 'nnz': 3, 'precision': np.float64(0.6667), 'recall': np.float64(0.4), 'F1': np.float64(0.5), 'gscore': np.float64(0.2)}
+参数组合结果: {'fdr': 0.3333, 'tpr': 0.4, 'fpr': 0.2, 'shd': 3, 'nnz': 3, 'precision': np.float64(0.6667), 'recall': np.float64(0.4), 'F1': np.float64(0.5), 'gscore': np.float64(0.2)}, 耗时: 3.2595s
 
 测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 15.9171s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.2), 'F1': np.float64(0.2222), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.2), 'F1': np.float64(0.2222), 'gscore': np.float64(0.0)}, 耗时: 3.2040s
 
 测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 14.5728s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': np.float64(0.5), 'recall': np.float64(0.2), 'F1': np.float64(0.2857), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': np.float64(0.5), 'recall': np.float64(0.2), 'F1': np.float64(0.2857), 'gscore': np.float64(0.0)}, 耗时: 3.3191s
 
 测试参数: T_init=1.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.4, 'tpr': 0.2727, 'fpr': 0.0588, 'shd': 8, 'nnz': 5, 'precision': np.float64(0.6), 'recall': np.float64(0.2727), 'F1': np.float64(0.375), 'gscore': np.float64(0.0909)}
-参数组合结果: {'fdr': 0.4, 'tpr': 0.2727, 'fpr': 0.0588, 'shd': 8, 'nnz': 5, 'precision': np.float64(0.6), 'recall': np.float64(0.2727), 'F1': np.float64(0.375), 'gscore': np.float64(0.0909)}, 耗时: 15.1614s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.2218s
 
 测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.3333, 'tpr': 0.1818, 'fpr': 0.0294, 'shd': 9, 'nnz': 3, 'precision': np.float64(0.6667), 'recall': np.float64(0.1818), 'F1': np.float64(0.2857), 'gscore': np.float64(0.0909)}
-参数组合结果: {'fdr': 0.3333, 'tpr': 0.1818, 'fpr': 0.0294, 'shd': 9, 'nnz': 3, 'precision': np.float64(0.6667), 'recall': np.float64(0.1818), 'F1': np.float64(0.2857), 'gscore': np.float64(0.0909)}, 耗时: 7.2093s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6395s
 
 测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}, 耗时: 7.6546s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6112s
 
 测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 7.2553s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6221s
 
 测试参数: T_init=1.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 6.9851s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6135s
 
 测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 15.6148s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.3642s
 
 测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 15.5035s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.2769s
 
 测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}, 耗时: 15.9529s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.4619s
 
 测试参数: T_init=1.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 14.4838s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.2638s
 
 测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 6.9421s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6275s
 
 测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}, 耗时: 7.3910s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.6170s
 
 测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.6210s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 2.0458s
 
 测试参数: T_init=1.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.5386s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 2.0625s
 
 测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 14.8006s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 4.1163s
 
 测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 14.7485s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 4.0310s
 
 测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 15.1125s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9462s
 
 测试参数: T_init=1.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}, 耗时: 14.8306s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}
+参数组合结果: {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}, 耗时: 4.1548s
 
 测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 7.6186s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 2.0638s
 
 测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.8408s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}
+参数组合结果: {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}, 耗时: 2.0694s
 
 测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 6.8424s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 2.0824s
 
 测试参数: T_init=2.0, cooling_rate=0.9, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 7.1655s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.9620s
 
 测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 13.4682s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.4), 'F1': np.float64(0.5714), 'gscore': np.float64(0.4)}
+参数组合结果: {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.4), 'F1': np.float64(0.5714), 'gscore': np.float64(0.4)}, 耗时: 4.0126s
 
 测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 15.2794s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 4.1797s
 
 测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.0, 'tpr': 0.3636, 'fpr': 0.0, 'shd': 7, 'nnz': 4, 'precision': np.float64(1.0), 'recall': np.float64(0.3636), 'F1': np.float64(0.5333), 'gscore': np.float64(0.3636)}
-参数组合结果: {'fdr': 0.0, 'tpr': 0.3636, 'fpr': 0.0, 'shd': 7, 'nnz': 4, 'precision': np.float64(1.0), 'recall': np.float64(0.3636), 'F1': np.float64(0.5333), 'gscore': np.float64(0.3636)}, 耗时: 14.6989s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9308s
 
 测试参数: T_init=2.0, cooling_rate=0.9, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 15.1714s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9761s
 
 测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.4623s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 2.0025s
 
 测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.0909, 'fpr': 0.0294, 'shd': 10, 'nnz': 2, 'precision': np.float64(0.5), 'recall': np.float64(0.0909), 'F1': np.float64(0.1538), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.0909, 'fpr': 0.0294, 'shd': 10, 'nnz': 2, 'precision': np.float64(0.5), 'recall': np.float64(0.0909), 'F1': np.float64(0.1538), 'gscore': np.float64(0.0)}, 耗时: 7.2149s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.9635s
 
 测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.4, 'tpr': 0.2727, 'fpr': 0.0588, 'shd': 8, 'nnz': 5, 'precision': np.float64(0.6), 'recall': np.float64(0.2727), 'F1': np.float64(0.375), 'gscore': np.float64(0.0909)}
-参数组合结果: {'fdr': 0.4, 'tpr': 0.2727, 'fpr': 0.0588, 'shd': 8, 'nnz': 5, 'precision': np.float64(0.6), 'recall': np.float64(0.2727), 'F1': np.float64(0.375), 'gscore': np.float64(0.0909)}, 耗时: 7.4628s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.9464s
 
 测试参数: T_init=2.0, cooling_rate=0.95, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 7.7662s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 2.1517s
 
 测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 14.4104s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9349s
 
 测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 耗时: 14.8517s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9849s
 
 测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 15.1705s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9440s
 
 测试参数: T_init=2.0, cooling_rate=0.95, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}, 耗时: 15.9855s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9848s
 
 测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 8.1040s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.9796s
 
 测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 7.8891s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.9384s
 
 测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.6667, 'tpr': 0.1818, 'fpr': 0.1176, 'shd': 9, 'nnz': 6, 'precision': np.float64(0.3333), 'recall': np.float64(0.1818), 'F1': np.float64(0.2353), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.6667, 'tpr': 0.1818, 'fpr': 0.1176, 'shd': 9, 'nnz': 6, 'precision': np.float64(0.3333), 'recall': np.float64(0.1818), 'F1': np.float64(0.2353), 'gscore': np.float64(0.0)}, 耗时: 7.3376s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.9699s
 
 测试参数: T_init=2.0, cooling_rate=0.98, max_iter=50, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}
-参数组合结果: {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 耗时: 7.7075s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 1.9064s
 
 测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 13.9024s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9886s
 
 测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=10, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 15.3889s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 4.2212s
 
 测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=1
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 耗时: 15.1350s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 3.9187s
 
 测试参数: T_init=2.0, cooling_rate=0.98, max_iter=100, global_no_improve=20, perturb_swaps=2
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
+ size_small: 6, size_large: 7, no_large_search: 0
 Parameter is automatically set up.
- size_small: 15, size_large: 28, no_large_search: 1
-Metrics: {'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.1471, 'shd': 11, 'nnz': 5, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'F1': np.float64(nan), 'gscore': np.float64(0.0)}
-参数组合结果: {'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.1471, 'shd': 11, 'nnz': 5, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'F1': np.float64(nan), 'gscore': np.float64(0.0)}, 耗时: 15.0953s
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}
+参数组合结果: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 耗时: 4.0678s
 
 调参结束。
-最佳参数组合: (0.5, 0.9, 100, 20, 2) 对应 F1 = 0.5333
+最佳参数组合: (0.5, 0.95, 50, 10, 1) 对应 F1 = 0.6667
 
 所有参数组合结果：
-{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 7.5856141000003845}
-{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}, 'time': 7.3594127999967895}
-{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 7.168561099999351}
-{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}, 'time': 7.132368099999439}
-{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}, 'time': 14.792799200000445}
-{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.6667, 'tpr': 0.1818, 'fpr': 0.1176, 'shd': 9, 'nnz': 6, 'precision': np.float64(0.3333), 'recall': np.float64(0.1818), 'F1': np.float64(0.2353), 'gscore': np.float64(0.0)}, 'time': 15.146792299998197}
-{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 14.356362799997441}
-{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.0, 'tpr': 0.3636, 'fpr': 0.0, 'shd': 7, 'nnz': 4, 'precision': np.float64(1.0), 'recall': np.float64(0.3636), 'F1': np.float64(0.5333), 'gscore': np.float64(0.3636)}, 'time': 14.081704000000173}
-{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 8.099319799999648}
-{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.206206800001382}
-{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 7.946253000001889}
-{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.854751299997588}
-{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}, 'time': 15.551956799998152}
-{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}, 'time': 15.115156700001535}
-{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}, 'time': 14.79904969999916}
-{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 16.09505469999931}
-{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.11991130000024}
-{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.4053318000005675}
-{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 7.146233499999653}
-{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 7.761834500000987}
-{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}, 'time': 14.243941900000209}
-{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 15.230395300000964}
-{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 15.101804800000536}
-{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 16.025393100000656}
-{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': np.float64(0.8), 'recall': np.float64(0.3636), 'F1': np.float64(0.5), 'gscore': np.float64(0.2727)}, 'time': 7.419475700000476}
-{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.290000600001804}
-{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.982495899999776}
-{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}, 'time': 7.462950599998294}
-{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 14.17144990000088}
-{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 15.917092700001376}
-{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 14.572823099999368}
-{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.4, 'tpr': 0.2727, 'fpr': 0.0588, 'shd': 8, 'nnz': 5, 'precision': np.float64(0.6), 'recall': np.float64(0.2727), 'F1': np.float64(0.375), 'gscore': np.float64(0.0909)}, 'time': 15.161417499999516}
-{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.3333, 'tpr': 0.1818, 'fpr': 0.0294, 'shd': 9, 'nnz': 3, 'precision': np.float64(0.6667), 'recall': np.float64(0.1818), 'F1': np.float64(0.2857), 'gscore': np.float64(0.0909)}, 'time': 7.209306600001582}
-{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}, 'time': 7.654648899999302}
-{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 7.255316300001141}
-{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 6.985112099999242}
-{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 15.614780199997767}
-{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 15.503473500000837}
-{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.3333, 'tpr': 0.3636, 'fpr': 0.0588, 'shd': 7, 'nnz': 6, 'precision': np.float64(0.6667), 'recall': np.float64(0.3636), 'F1': np.float64(0.4706), 'gscore': np.float64(0.1818)}, 'time': 15.952909999999974}
-{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 14.483822099999088}
-{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 6.94213800000216}
-{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.6667, 'tpr': 0.0909, 'fpr': 0.0588, 'shd': 10, 'nnz': 3, 'precision': np.float64(0.3333), 'recall': np.float64(0.0909), 'F1': np.float64(0.1429), 'gscore': np.float64(0.0)}, 'time': 7.390989100000297}
-{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.620971899999859}
-{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.538553300000785}
-{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 14.800633200000448}
-{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 14.748532399997202}
-{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 15.112540400001308}
-{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}, 'time': 14.830642799999623}
-{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 7.618605200001184}
-{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.8407949000029475}
-{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 6.842412300000433}
-{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 7.165509099999326}
-{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 13.468213000000105}
-{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 15.27936630000113}
-{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.0, 'tpr': 0.3636, 'fpr': 0.0, 'shd': 7, 'nnz': 4, 'precision': np.float64(1.0), 'recall': np.float64(0.3636), 'F1': np.float64(0.5333), 'gscore': np.float64(0.3636)}, 'time': 14.698887000002287}
-{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 15.171354599999177}
-{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.462330900001689}
-{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.0909, 'fpr': 0.0294, 'shd': 10, 'nnz': 2, 'precision': np.float64(0.5), 'recall': np.float64(0.0909), 'F1': np.float64(0.1538), 'gscore': np.float64(0.0)}, 'time': 7.214942599999631}
-{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.4, 'tpr': 0.2727, 'fpr': 0.0588, 'shd': 8, 'nnz': 5, 'precision': np.float64(0.6), 'recall': np.float64(0.2727), 'F1': np.float64(0.375), 'gscore': np.float64(0.0909)}, 'time': 7.462785799998528}
-{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 7.766167300000234}
-{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 14.410382599999139}
-{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.0909, 'fpr': 0.0882, 'shd': 10, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.0909), 'F1': np.float64(0.1333), 'gscore': np.float64(0.0)}, 'time': 14.851739200003067}
-{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 15.170515900001192}
-{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.8, 'tpr': 0.0909, 'fpr': 0.1176, 'shd': 10, 'nnz': 5, 'precision': np.float64(0.2), 'recall': np.float64(0.0909), 'F1': np.float64(0.125), 'gscore': np.float64(0.0)}, 'time': 15.985533800001576}
-{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 8.103952999998}
-{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 7.889061500001844}
-{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.6667, 'tpr': 0.1818, 'fpr': 0.1176, 'shd': 9, 'nnz': 6, 'precision': np.float64(0.3333), 'recall': np.float64(0.1818), 'F1': np.float64(0.2353), 'gscore': np.float64(0.0)}, 'time': 7.337646100000711}
-{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.25, 'tpr': 0.2727, 'fpr': 0.0294, 'shd': 8, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.2727), 'F1': np.float64(0.4), 'gscore': np.float64(0.1818)}, 'time': 7.707495900001959}
-{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 13.902423399998952}
-{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 15.3888818000014}
-{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.1818, 'fpr': 0.0588, 'shd': 9, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.1818), 'F1': np.float64(0.2667), 'gscore': np.float64(0.0)}, 'time': 15.135042899997643}
-{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.1471, 'shd': 11, 'nnz': 5, 'precision': np.float64(0.0), 'recall': np.float64(0.0), 'F1': np.float64(nan), 'gscore': np.float64(0.0)}, 'time': 15.095259400000941}
-C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
-  F1 = 2*(recall*precision)/(recall+precision)
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.7022876999981236}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.662575399997877}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6053150999941863}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.5806328000035137}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.4), 'F1': np.float64(0.5714), 'gscore': np.float64(0.4)}, 'time': 3.1891990000003716}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.2611352000094485}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.2857125000009546}
+{'T_init': 0.5, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.2), 'F1': np.float64(0.2222), 'gscore': np.float64(0.0)}, 'time': 3.225054900001851}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}, 'time': 1.6174725000018952}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.620969800002058}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6608386999869253}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.672286900007748}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.336829799998668}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.158364900009474}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.182650899994769}
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.181034399996861}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.635627800002112}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.593635199998971}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.580441600002814}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6145516000106}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.1753140999935567}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.267103699996369}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.323042100004386}
+{'T_init': 0.5, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.2807327000045916}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6026545999920927}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6015990000014426}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.633965300003183}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6111426000134088}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.3333, 'tpr': 0.4, 'fpr': 0.2, 'shd': 3, 'nnz': 3, 'precision': np.float64(0.6667), 'recall': np.float64(0.4), 'F1': np.float64(0.5), 'gscore': np.float64(0.2)}, 'time': 3.259535000004689}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': np.float64(0.25), 'recall': np.float64(0.2), 'F1': np.float64(0.2222), 'gscore': np.float64(0.0)}, 'time': 3.2040137000003597}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': np.float64(0.5), 'recall': np.float64(0.2), 'F1': np.float64(0.2857), 'gscore': np.float64(0.0)}, 'time': 3.3191113000066252}
+{'T_init': 1.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.2218441999866627}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6394888999930117}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.611189800009015}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6221289000095567}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6135323000053177}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.3641575000074226}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.276868300003116}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.461947899995721}
+{'T_init': 1.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.2638149999984307}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.6275444000057178}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.61701030000404}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 2.045790100004524}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 2.062497299993993}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 4.116250299994135}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 4.030981300005806}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.9461661000095773}
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}, 'time': 4.154798200004734}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 2.063835700013442}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': np.float64(0.75), 'recall': np.float64(0.6), 'F1': np.float64(0.6667), 'gscore': np.float64(0.4)}, 'time': 2.06942749999871}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 2.0823702000052435}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.9620215000031749}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': np.float64(1.0), 'recall': np.float64(0.4), 'F1': np.float64(0.5714), 'gscore': np.float64(0.4)}, 'time': 4.012610800011316}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 4.179672900005244}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.930785799995647}
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.9760562000010395}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 2.0025467999948887}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.9635324999981094}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.9463603999902261}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 2.1517265000002226}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.9349411000002874}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.9848775999998907}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.943963999990956}
+{'T_init': 2.0, 'cooling_rate': 0.95, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.9848196000093594}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.9796368999959668}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.938395600009244}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.9698841999925207}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 50, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 1.9063910999975633}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.988629499988747}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 10, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 4.221239299993613}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 1, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 3.9186579000088386}
+{'T_init': 2.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2, 'metrics': {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': np.float64(0.5), 'recall': np.float64(0.4), 'F1': np.float64(0.4444), 'gscore': np.float64(0.0)}, 'time': 4.067778399999952}
 
 进程已结束，退出代码为 0

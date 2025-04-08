@@ -111,6 +111,7 @@ class TOPO_linear:
         return new_topo
 
     '''
+    # 没有加入优化的代码
     def fit(self, X, topo: list, no_large_search=-1, size_small=-1, size_large=-1,
             verbose=False, max_no_improve=5, perturb_swaps=2, max_iter=100, global_no_improve=20):
         """
@@ -192,7 +193,19 @@ class TOPO_linear:
     '''
 
     def fit(self, X, topo: list, no_large_search=-1, size_small=-1, size_large=-1,
-            verbose=False, max_iter=100, T_init=0.5, cooling_rate=0.9, global_no_improve=20, perturb_swaps=2):
+            verbose=False, max_iter=50, T_init=2.0, cooling_rate=0.9, global_no_improve=10, perturb_swaps=2):
+
+        '''
+        {'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2,
+        变差1组，变好1组，剩下不变
+
+        {'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1,
+        变差2组，剩下不变
+
+        {'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2
+        变好5组，变差9组，不变7组
+        '''
+
         """
         在数据 X 上进行拓扑结构搜索，使用模拟退火策略搜索最优拓扑。
 

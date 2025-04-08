@@ -22,6 +22,15 @@ if __name__ == '__main__':
     # 数据加载和预处理
 
     for dataset in range(1,29):
+        if (dataset == 2 or
+                dataset == 3 or
+                dataset == 4 or
+                dataset == 6 or
+                dataset == 11 or
+                dataset == 12 or
+                dataset == 17):
+            continue
+
         data = loadmat(f'../datasets/sims/sim{dataset}.mat')
         print('\nCurrent dataset: #', dataset)
 
@@ -92,23 +101,17 @@ if __name__ == '__main__':
 
         B_est = (threshold_W(W=W_linear) != 0).astype(int)
         B_true_linear = np.array(B_true_linear).astype(int)
-        # print("Estimated B (B_est):")
-        # print(B_est)
-        # print("True B (B_true_linear):")
-        # print(B_true_linear)
+        print("Estimated B (B_est):")
+        print(B_est)
+        print("True B (B_true_linear):")
+        print(B_true_linear)
         met = MetricsDAG(B_est, B_true_linear)
         print("Metrics:", met.metrics)
 
 
 
 '''
-fdr (False Discovery Rate)：误报的比例
-
-tpr (True Positive Rate)：有大约76.19%被模型正确识别出来，也就是召回率
-
-fpr (False Positive Rate)：模型错误地预测为存在连接的比例约为29.17%
-
-shd (Structural Hamming Distance)：预测网络与真实网络之间需要修改的边数
-
-nnz (Non-zero count)：值为13，表示在阈值处理后，模型预测出总共有13条连接（即非零元素的个数）。
+{'T_init': 1.0, 'cooling_rate': 0.98, 'max_iter': 100, 'global_no_improve': 20, 'perturb_swaps': 2,
+{'T_init': 0.5, 'cooling_rate': 0.95, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 1,
+{'T_init': 2.0, 'cooling_rate': 0.9, 'max_iter': 50, 'global_no_improve': 10, 'perturb_swaps': 2
 '''
