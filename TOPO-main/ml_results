@@ -1,0 +1,497 @@
+C:\Python312\python.exe D:\Final_Project\brain_connectivity_DAG\TOPO-main\brain_connectivity.py
+
+Processing dataset: sim1
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.0, 'tpr': 0.8, 'fpr': 0.0, 'shd': 1, 'nnz': 4, 'precision': 1.0, 'recall': 0.8, 'F1': 0.8889, 'gscore': 0.8}
+Predicted Network:
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim2
+Nnode != 5, continue to save time
+Predicted Network:
+None
+True Network:
+None
+
+Processing dataset: sim3
+Nnode != 5, continue to save time
+Predicted Network:
+None
+True Network:
+None
+
+Processing dataset: sim4
+Nnode != 5, continue to save time
+Predicted Network:
+None
+True Network:
+None
+
+Processing dataset: sim5
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.3333, 'tpr': 0.4, 'fpr': 0.2, 'shd': 3, 'nnz': 3, 'precision': 0.6667, 'recall': 0.4, 'F1': 0.5, 'gscore': 0.2}
+Predicted Network:
+[[0 0 0 0 0]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim6
+Nnode != 5, continue to save time
+Predicted Network:
+None
+True Network:
+None
+
+Processing dataset: sim7
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': 0.5, 'recall': 0.2, 'F1': 0.2857, 'gscore': 0.0}
+Predicted Network:
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 1 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim8
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+Predicted Network:
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim9
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+Predicted Network:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim10
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+Predicted Network:
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim11
+Nnode != 5, continue to save time
+Predicted Network:
+None
+True Network:
+None
+
+Processing dataset: sim12
+Nnode != 5, continue to save time
+Predicted Network:
+None
+True Network:
+None
+
+Processing dataset: sim13
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 1.0, 'tpr': 0.0, 'fpr': 1.0, 'shd': 5, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+Predicted Network:
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [1 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [1 1 1 0 0]
+ [0 1 1 1 0]
+ [0 0 1 1 1]
+ [0 0 0 1 1]]
+
+Processing dataset: sim14
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': 0.5, 'recall': 0.4, 'F1': 0.4444, 'gscore': 0.0}
+Predicted Network:
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 0]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [1 0 0 0 1]]
+
+Processing dataset: sim15
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+Predicted Network:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim16
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.0, 'tpr': 0.2857, 'fpr': 0.0, 'shd': 5, 'nnz': 2, 'precision': 1.0, 'recall': 0.2857, 'F1': 0.4444, 'gscore': 0.2857}
+Predicted Network:
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 1 0]
+ [0 0 1 1 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim17
+Nnode != 5, continue to save time
+Predicted Network:
+None
+True Network:
+None
+
+Processing dataset: sim18
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.6, 'F1': 0.6, 'gscore': 0.2}
+Predicted Network:
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 1 0 1]
+ [1 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim19
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.8, 'tpr': 0.2, 'fpr': 0.8, 'shd': 4, 'nnz': 5, 'precision': 0.2, 'recall': 0.2, 'F1': 0.2, 'gscore': 0.0}
+Predicted Network:
+[[0 0 0 0 0]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 1 0 1]
+ [1 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim20
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+Predicted Network:
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim21
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.0, 'tpr': 0.6, 'fpr': 0.0, 'shd': 2, 'nnz': 3, 'precision': 1.0, 'recall': 0.6, 'F1': 0.75, 'gscore': 0.6}
+Predicted Network:
+[[0 1 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim22
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Metrics: {'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.8, 'shd': 5, 'nnz': 4, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+Predicted Network:
+[[0 0 0 0 0]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 1 0 0]
+ [1 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim23
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.6, 'F1': 0.6, 'gscore': 0.2}
+Predicted Network:
+[[0 0 0 0 1]
+ [1 0 0 0 0]
+ [0 1 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim24
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.6667, 'tpr': 0.4, 'fpr': 0.8, 'shd': 4, 'nnz': 6, 'precision': 0.3333, 'recall': 0.4, 'F1': 0.3636, 'gscore': 0.0}
+Predicted Network:
+[[0 0 0 0 1]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 1 1 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim25
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+Predicted Network:
+[[0 0 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim26
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.3333, 'tpr': 0.4, 'fpr': 0.2, 'shd': 3, 'nnz': 3, 'precision': 0.6667, 'recall': 0.4, 'F1': 0.5, 'gscore': 0.2}
+Predicted Network:
+[[0 0 0 0 0]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim27
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+Predicted Network:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+Processing dataset: sim28
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Metrics: {'fdr': 0.8, 'tpr': 0.2, 'fpr': 0.8, 'shd': 4, 'nnz': 5, 'precision': 0.2, 'recall': 0.2, 'F1': 0.2, 'gscore': 0.0}
+Predicted Network:
+[[0 0 0 0 0]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 1 0 1]
+ [1 0 0 0 0]]
+True Network:
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+
+进程已结束，退出代码为 0

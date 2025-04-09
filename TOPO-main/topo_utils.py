@@ -390,3 +390,10 @@ def squared_loss(output, target):
     n = target.shape[0]
     loss = 0.5 / n * torch.sum((output - target) ** 2)
     return loss
+
+import random
+
+def set_random_seed(seed):
+    """设置随机种子"""
+    random.seed(seed)
+    np.random.seed(seed)
