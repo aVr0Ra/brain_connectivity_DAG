@@ -1,0 +1,4892 @@
+C:\Python312\python.exe D:\Final_Project\brain_connectivity_DAG\dl_models\brain_connectivity.py
+
+Processing dataset #1
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+Training TCN model...
+Epoch 5:
+  Train Loss: 0.8197
+  Val Loss: 0.6905
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8001
+  Val Loss: 0.6668
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7647
+  Val Loss: 0.6410
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7226
+  Val Loss: 0.6134
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.6904
+  Val Loss: 0.5808
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.6462
+  Val Loss: 0.5453
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6091
+  Val Loss: 0.5087
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.5633
+  Val Loss: 0.4706
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.5184
+  Val Loss: 0.4283
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.4773
+  Val Loss: 0.3861
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.3861
+
+TCN Results:
+Time: 0.7577s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\functional.py:5504: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at ..\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:455.)
+  attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+Epoch 5:
+  Train Loss: 0.7489
+  Val Loss: 0.6228
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.6973
+  Val Loss: 0.5740
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6448
+  Val Loss: 0.5239
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5933
+  Val Loss: 0.4757
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5452
+  Val Loss: 0.4319
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.5019
+  Val Loss: 0.3922
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4609
+  Val Loss: 0.3561
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4233
+  Val Loss: 0.3228
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3885
+  Val Loss: 0.2923
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3565
+  Val Loss: 0.2643
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2643
+
+TRANSFORMER Results:
+Time: 0.7249s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.7143
+  recall: 1.0000
+  f1: 0.8333
+  accuracy: 0.9200
+  specificity: 0.9000
+  TP: 5
+  FP: 2
+  FN: 0
+  TN: 18
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 1 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 1 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8188
+  Val Loss: 0.6638
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7820
+  Val Loss: 0.6374
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7711
+  Val Loss: 0.6152
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7510
+  Val Loss: 0.5949
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7389
+  Val Loss: 0.5759
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7078
+  Val Loss: 0.5594
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6748
+  Val Loss: 0.5492
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6620
+  Val Loss: 0.5308
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6185
+  Val Loss: 0.5176
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6098
+  Val Loss: 0.4771
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4771
+
+DEEP_DAG Results:
+Time: 0.5173s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.7143
+  recall: 1.0000
+  f1: 0.8333
+  accuracy: 0.9200
+  specificity: 0.9000
+  TP: 5
+  FP: 2
+  FN: 0
+  TN: 18
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 1 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #2
+Node != 5, continue to save time
+
+Processing dataset #3
+Node != 5, continue to save time
+
+Processing dataset #4
+Node != 5, continue to save time
+
+Processing dataset #5
+
+Input shape: (50, 1200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8030
+  Val Loss: 0.6761
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7741
+  Val Loss: 0.6557
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7576
+  Val Loss: 0.6333
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7217
+  Val Loss: 0.6101
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.6919
+  Val Loss: 0.5864
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.6644
+  Val Loss: 0.5610
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6445
+  Val Loss: 0.5340
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6162
+  Val Loss: 0.5054
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.5687
+  Val Loss: 0.4731
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.5331
+  Val Loss: 0.4399
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4399
+
+TCN Results:
+Time: 0.4659s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.8000
+  recall: 0.8000
+  f1: 0.8000
+  accuracy: 0.9200
+  specificity: 0.9500
+  TP: 4
+  FP: 1
+  FN: 1
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 0 1]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 1200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7782
+  Val Loss: 0.6375
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7169
+  Val Loss: 0.5754
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6594
+  Val Loss: 0.5197
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6007
+  Val Loss: 0.4646
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5439
+  Val Loss: 0.4125
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4911
+  Val Loss: 0.3653
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4429
+  Val Loss: 0.3230
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.3996
+  Val Loss: 0.2851
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3604
+  Val Loss: 0.2514
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3253
+  Val Loss: 0.2217
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2217
+
+TRANSFORMER Results:
+Time: 4.7045s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 1200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8672
+  Val Loss: 0.6765
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8429
+  Val Loss: 0.6548
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8293
+  Val Loss: 0.6362
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7829
+  Val Loss: 0.6215
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7811
+  Val Loss: 0.6042
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7522
+  Val Loss: 0.5898
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7337
+  Val Loss: 0.5813
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6970
+  Val Loss: 0.5844
+  Learning Rate: 0.001000
+Early stopping at epoch 43 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.5802
+
+DEEP_DAG Results:
+Time: 0.4295s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.8000
+  recall: 0.8000
+  f1: 0.8000
+  accuracy: 0.9200
+  specificity: 0.9500
+  TP: 4
+  FP: 1
+  FN: 1
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 0 0 0 1]
+ [0 0 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #6
+Node != 5, continue to save time
+
+Processing dataset #7
+
+Input shape: (50, 5000, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8303
+  Val Loss: 0.6942
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8173
+  Val Loss: 0.6886
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8057
+  Val Loss: 0.6812
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7963
+  Val Loss: 0.6735
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7869
+  Val Loss: 0.6656
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7786
+  Val Loss: 0.6567
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7646
+  Val Loss: 0.6454
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7520
+  Val Loss: 0.6330
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.7352
+  Val Loss: 0.6177
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.7132
+  Val Loss: 0.6018
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.6018
+
+TCN Results:
+Time: 0.5634s
+Metrics:
+  threshold: 0.1000
+  shd: 3.0000
+  precision: 0.6667
+  recall: 0.8000
+  f1: 0.7273
+  accuracy: 0.8800
+  specificity: 0.9000
+  TP: 4
+  FP: 2
+  FN: 1
+  TN: 18
+
+Predicted adjacency matrix:
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 1 1]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 5000, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Error running transformer: CUDA out of memory. Tried to allocate 5.96 GiB. GPU
+Traceback (most recent call last):
+  File "D:\Final_Project\brain_connectivity_DAG\dl_models\brain_connectivity.py", line 78, in run_model
+    trainer.train(train_data, train_net, val_data, val_net,
+  File "D:\Final_Project\brain_connectivity_DAG\dl_models\topo_neural.py", line 265, in train
+    pred = self.model(batch_x)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Final_Project\brain_connectivity_DAG\dl_models\topo_neural.py", line 137, in forward
+    x = self.transformer(x)
+        ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\transformer.py", line 415, in forward
+    output = mod(output, src_mask=mask, is_causal=is_causal, src_key_padding_mask=src_key_padding_mask_for_layers)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\transformer.py", line 749, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask, is_causal=is_causal))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\transformer.py", line 757, in _sa_block
+    x = self.self_attn(x, x, x,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\activation.py", line 1266, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\functional.py", line 5504, in multi_head_attention_forward
+    attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.96 GiB. GPU
+
+Predicted adjacency matrix shape: None
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 5000, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8445
+  Val Loss: 0.6785
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8145
+  Val Loss: 0.6676
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7894
+  Val Loss: 0.6562
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7647
+  Val Loss: 0.6418
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7495
+  Val Loss: 0.6269
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7171
+  Val Loss: 0.6196
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6941
+  Val Loss: 0.6103
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6752
+  Val Loss: 0.6037
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6629
+  Val Loss: 0.5959
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6233
+  Val Loss: 0.6082
+  Learning Rate: 0.000500
+Early stopping at epoch 50 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.5959
+
+DEEP_DAG Results:
+Time: 0.6194s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 0.8333
+  recall: 1.0000
+  f1: 0.9091
+  accuracy: 0.9600
+  specificity: 0.9500
+  TP: 5
+  FP: 1
+  FN: 0
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 1 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #8
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8204
+  Val Loss: 0.6911
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8076
+  Val Loss: 0.6810
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7935
+  Val Loss: 0.6711
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7782
+  Val Loss: 0.6598
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7665
+  Val Loss: 0.6470
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7458
+  Val Loss: 0.6326
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7197
+  Val Loss: 0.6142
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6991
+  Val Loss: 0.5934
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6702
+  Val Loss: 0.5699
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6452
+  Val Loss: 0.5437
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5437
+
+TCN Results:
+Time: 0.4818s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 1.0000
+  recall: 0.6000
+  f1: 0.7500
+  accuracy: 0.9200
+  specificity: 1.0000
+  TP: 3
+  FP: 0
+  FN: 2
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7723
+  Val Loss: 0.6401
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7073
+  Val Loss: 0.5749
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6484
+  Val Loss: 0.5190
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5936
+  Val Loss: 0.4677
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5429
+  Val Loss: 0.4209
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4963
+  Val Loss: 0.3783
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4532
+  Val Loss: 0.3396
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4130
+  Val Loss: 0.3044
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3761
+  Val Loss: 0.2723
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3427
+  Val Loss: 0.2434
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2434
+
+TRANSFORMER Results:
+Time: 0.7537s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.9078
+  Val Loss: 0.6838
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8824
+  Val Loss: 0.6723
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8711
+  Val Loss: 0.6610
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.8450
+  Val Loss: 0.6480
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.8277
+  Val Loss: 0.6339
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7848
+  Val Loss: 0.6184
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7760
+  Val Loss: 0.6049
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7567
+  Val Loss: 0.5945
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.7146
+  Val Loss: 0.5845
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.7129
+  Val Loss: 0.5859
+  Learning Rate: 0.000500
+Restored best model with validation loss: 0.5820
+
+DEEP_DAG Results:
+Time: 0.5004s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.8000
+  recall: 0.8000
+  f1: 0.8000
+  accuracy: 0.9200
+  specificity: 0.9500
+  TP: 4
+  FP: 1
+  FN: 1
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #9
+
+Input shape: (50, 5000, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8336
+  Val Loss: 0.6944
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8149
+  Val Loss: 0.6858
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8014
+  Val Loss: 0.6756
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7888
+  Val Loss: 0.6636
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7692
+  Val Loss: 0.6495
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7534
+  Val Loss: 0.6330
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7309
+  Val Loss: 0.6141
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7078
+  Val Loss: 0.5928
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6787
+  Val Loss: 0.5691
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6586
+  Val Loss: 0.5421
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5421
+
+TCN Results:
+Time: 0.8256s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 0.8333
+  recall: 1.0000
+  f1: 0.9091
+  accuracy: 0.9600
+  specificity: 0.9500
+  TP: 5
+  FP: 1
+  FN: 0
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 1]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 5000, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Error running transformer: CUDA out of memory. Tried to allocate 5.96 GiB. GPU
+
+Predicted adjacency matrix shape: None
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 5000, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+Traceback (most recent call last):
+  File "D:\Final_Project\brain_connectivity_DAG\dl_models\brain_connectivity.py", line 78, in run_model
+    trainer.train(train_data, train_net, val_data, val_net,
+  File "D:\Final_Project\brain_connectivity_DAG\dl_models\topo_neural.py", line 265, in train
+    pred = self.model(batch_x)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Final_Project\brain_connectivity_DAG\dl_models\topo_neural.py", line 137, in forward
+    x = self.transformer(x)
+        ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\transformer.py", line 415, in forward
+    output = mod(output, src_mask=mask, is_causal=is_causal, src_key_padding_mask=src_key_padding_mask_for_layers)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\transformer.py", line 749, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask, is_causal=is_causal))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\transformer.py", line 757, in _sa_block
+    x = self.self_attn(x, x, x,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\activation.py", line 1266, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\nn\functional.py", line 5504, in multi_head_attention_forward
+    attn_output = scaled_dot_product_attention(q, k, v, attn_mask, dropout_p, is_causal)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.96 GiB. GPU
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.9097
+  Val Loss: 0.6972
+  Learning Rate: 0.000500
+Early stopping at epoch 6 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.6947
+
+DEEP_DAG Results:
+Time: 0.2747s
+Metrics:
+  threshold: 0.1000
+  shd: 13.0000
+  precision: 0.2143
+  recall: 0.6000
+  f1: 0.3158
+  accuracy: 0.4800
+  specificity: 0.4500
+  TP: 3
+  FP: 11
+  FN: 2
+  TN: 9
+
+Predicted adjacency matrix:
+[[0 0 1 1 1]
+ [1 1 1 1 1]
+ [1 1 0 1 0]
+ [0 1 1 0 0]
+ [0 0 0 0 1]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #10
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7915
+  Val Loss: 0.6774
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7788
+  Val Loss: 0.6630
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7552
+  Val Loss: 0.6459
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7336
+  Val Loss: 0.6265
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7182
+  Val Loss: 0.6048
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.6823
+  Val Loss: 0.5798
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6458
+  Val Loss: 0.5500
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6088
+  Val Loss: 0.5167
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.5910
+  Val Loss: 0.4794
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.5303
+  Val Loss: 0.4392
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4392
+
+TCN Results:
+Time: 0.7802s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7408
+  Val Loss: 0.6070
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.6868
+  Val Loss: 0.5578
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6397
+  Val Loss: 0.5136
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5913
+  Val Loss: 0.4690
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5435
+  Val Loss: 0.4250
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4969
+  Val Loss: 0.3829
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4535
+  Val Loss: 0.3435
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4121
+  Val Loss: 0.3071
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3739
+  Val Loss: 0.2737
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3396
+  Val Loss: 0.2434
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2434
+
+TRANSFORMER Results:
+Time: 1.1223s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8501
+  Val Loss: 0.6828
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8427
+  Val Loss: 0.6693
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8150
+  Val Loss: 0.6582
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7907
+  Val Loss: 0.6461
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7752
+  Val Loss: 0.6378
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7402
+  Val Loss: 0.6351
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7284
+  Val Loss: 0.6315
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7038
+  Val Loss: 0.6276
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6702
+  Val Loss: 0.6176
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6557
+  Val Loss: 0.5976
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5976
+
+DEEP_DAG Results:
+Time: 0.6997s
+Metrics:
+  threshold: 0.1000
+  shd: 4.0000
+  precision: 0.5556
+  recall: 1.0000
+  f1: 0.7143
+  accuracy: 0.8400
+  specificity: 0.8000
+  TP: 5
+  FP: 4
+  FN: 0
+  TN: 16
+
+Predicted adjacency matrix:
+[[0 1 1 1 1]
+ [0 0 1 0 0]
+ [0 1 0 1 0]
+ [0 0 0 0 1]
+ [0 0 1 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #11
+Node != 5, continue to save time
+
+Processing dataset #12
+Node != 5, continue to save time
+
+Processing dataset #13
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8083
+  Val Loss: 0.6847
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7996
+  Val Loss: 0.6770
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7898
+  Val Loss: 0.6691
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7787
+  Val Loss: 0.6599
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7729
+  Val Loss: 0.6496
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7514
+  Val Loss: 0.6370
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7333
+  Val Loss: 0.6218
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7176
+  Val Loss: 0.6035
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6927
+  Val Loss: 0.5819
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6720
+  Val Loss: 0.5565
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5565
+
+TCN Results:
+Time: 0.7622s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 1.0000
+  recall: 0.8000
+  f1: 0.8889
+  accuracy: 0.9600
+  specificity: 1.0000
+  TP: 4
+  FP: 0
+  FN: 1
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7918
+  Val Loss: 0.6632
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7534
+  Val Loss: 0.6235
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7081
+  Val Loss: 0.5771
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6533
+  Val Loss: 0.5222
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5938
+  Val Loss: 0.4654
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.5372
+  Val Loss: 0.4132
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4845
+  Val Loss: 0.3664
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4376
+  Val Loss: 0.3244
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3944
+  Val Loss: 0.2868
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3555
+  Val Loss: 0.2533
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2533
+
+TRANSFORMER Results:
+Time: 1.1075s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 1.0000
+  recall: 0.8000
+  f1: 0.8889
+  accuracy: 0.9600
+  specificity: 1.0000
+  TP: 4
+  FP: 0
+  FN: 1
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 0 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.9350
+  Val Loss: 0.6942
+  Learning Rate: 0.001000
+Early stopping at epoch 6 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.6948
+
+DEEP_DAG Results:
+Time: 0.0936s
+Metrics:
+  threshold: 0.1000
+  shd: 13.0000
+  precision: 0.1667
+  recall: 0.4000
+  f1: 0.2353
+  accuracy: 0.4800
+  specificity: 0.5000
+  TP: 2
+  FP: 10
+  FN: 3
+  TN: 10
+
+Predicted adjacency matrix:
+[[0 0 0 0 1]
+ [0 1 0 1 0]
+ [0 0 1 0 1]
+ [0 0 0 1 1]
+ [1 1 1 1 1]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #14
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+Epoch 5:
+  Train Loss: 0.8188
+  Val Loss: 0.6875
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8053
+  Val Loss: 0.6782
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7919
+  Val Loss: 0.6690
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7851
+  Val Loss: 0.6590
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7677
+  Val Loss: 0.6489
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7624
+  Val Loss: 0.6381
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7413
+  Val Loss: 0.6268
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7290
+  Val Loss: 0.6142
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.7092
+  Val Loss: 0.5999
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6894
+  Val Loss: 0.5825
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5825
+
+TCN Results:
+Time: 0.6799s
+Metrics:
+  threshold: 0.1000
+  shd: 3.0000
+  precision: 0.6250
+  recall: 1.0000
+  f1: 0.7692
+  accuracy: 0.8800
+  specificity: 0.8500
+  TP: 5
+  FP: 3
+  FN: 0
+  TN: 17
+
+Predicted adjacency matrix:
+[[0 1 0 0 0]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [1 1 1 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [1 0 0 0 0]]
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+Epoch 5:
+  Train Loss: 0.7337
+  Val Loss: 0.6040
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.6673
+  Val Loss: 0.5390
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6101
+  Val Loss: 0.4842
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5567
+  Val Loss: 0.4344
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5069
+  Val Loss: 0.3887
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4622
+  Val Loss: 0.3471
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4195
+  Val Loss: 0.3097
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.3812
+  Val Loss: 0.2762
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3472
+  Val Loss: 0.2463
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3155
+  Val Loss: 0.2196
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2196
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+TRANSFORMER Results:
+Time: 1.0743s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [1 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [1 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+Epoch 5:
+  Train Loss: 0.8707
+  Val Loss: 0.6867
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8552
+  Val Loss: 0.6786
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8162
+  Val Loss: 0.6678
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7985
+  Val Loss: 0.6570
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7817
+  Val Loss: 0.6486
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7574
+  Val Loss: 0.6392
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7343
+  Val Loss: 0.6128
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7149
+  Val Loss: 0.5728
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.7093
+  Val Loss: 0.5252
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6949
+  Val Loss: 0.4833
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4833
+
+DEEP_DAG Results:
+Time: 0.8250s
+Metrics:
+  threshold: 0.1000
+  shd: 5.0000
+  precision: 0.5000
+  recall: 1.0000
+  f1: 0.6667
+  accuracy: 0.8000
+  specificity: 0.7500
+  TP: 5
+  FP: 5
+  FN: 0
+  TN: 15
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 1 0]
+ [0 1 0 1 0]
+ [0 0 1 0 1]
+ [1 1 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [1 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #15
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7653
+  Val Loss: 0.6609
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7467
+  Val Loss: 0.6426
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7238
+  Val Loss: 0.6201
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6994
+  Val Loss: 0.5960
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.6699
+  Val Loss: 0.5706
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.6498
+  Val Loss: 0.5448
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6079
+  Val Loss: 0.5171
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.5914
+  Val Loss: 0.4856
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.5333
+  Val Loss: 0.4535
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.4816
+  Val Loss: 0.4203
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4203
+
+TCN Results:
+Time: 0.8286s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.7143
+  recall: 1.0000
+  f1: 0.8333
+  accuracy: 0.9200
+  specificity: 0.9000
+  TP: 5
+  FP: 2
+  FN: 0
+  TN: 18
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 1 0 1 1]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7545
+  Val Loss: 0.6295
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.6941
+  Val Loss: 0.5622
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6356
+  Val Loss: 0.5057
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5808
+  Val Loss: 0.4564
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5299
+  Val Loss: 0.4120
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4835
+  Val Loss: 0.3717
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4411
+  Val Loss: 0.3351
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4021
+  Val Loss: 0.3015
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3664
+  Val Loss: 0.2708
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3339
+  Val Loss: 0.2429
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2429
+
+TRANSFORMER Results:
+Time: 1.1488s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 1.0000
+  recall: 0.8000
+  f1: 0.8889
+  accuracy: 0.9600
+  specificity: 1.0000
+  TP: 4
+  FP: 0
+  FN: 1
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 0 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8636
+  Val Loss: 0.6677
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8267
+  Val Loss: 0.6519
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8111
+  Val Loss: 0.6281
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7781
+  Val Loss: 0.6127
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7687
+  Val Loss: 0.5974
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7375
+  Val Loss: 0.5818
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7109
+  Val Loss: 0.5657
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6863
+  Val Loss: 0.5525
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6874
+  Val Loss: 0.5366
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6796
+  Val Loss: 0.5192
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5192
+
+DEEP_DAG Results:
+Time: 0.7505s
+Metrics:
+  threshold: 0.1000
+  shd: 3.0000
+  precision: 0.6250
+  recall: 1.0000
+  f1: 0.7692
+  accuracy: 0.8800
+  specificity: 0.8500
+  TP: 5
+  FP: 3
+  FN: 0
+  TN: 17
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [1 0 0 1 0]
+ [0 0 0 1 1]
+ [0 0 1 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #16
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+Epoch 5:
+  Train Loss: 0.8116
+  Val Loss: 0.6853
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7986
+  Val Loss: 0.6771
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7871
+  Val Loss: 0.6669
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7702
+  Val Loss: 0.6550
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7516
+  Val Loss: 0.6418
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7321
+  Val Loss: 0.6272
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7252
+  Val Loss: 0.6110
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6959
+  Val Loss: 0.5949
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6768
+  Val Loss: 0.5768
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6514
+  Val Loss: 0.5566
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5566
+
+TCN Results:
+Time: 0.6382s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.8571
+  recall: 0.8571
+  f1: 0.8571
+  accuracy: 0.9200
+  specificity: 0.9444
+  TP: 6
+  FP: 1
+  FN: 1
+  TN: 17
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 1 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [1 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+Training TRANSFORMER model...
+Epoch 5:
+  Train Loss: 0.8110
+  Val Loss: 0.6741
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7622
+  Val Loss: 0.6266
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7141
+  Val Loss: 0.5806
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6651
+  Val Loss: 0.5337
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.6150
+  Val Loss: 0.4870
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.5665
+  Val Loss: 0.4416
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.5203
+  Val Loss: 0.3987
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4771
+  Val Loss: 0.3587
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.4368
+  Val Loss: 0.3220
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3999
+  Val Loss: 0.2885
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2885
+
+TRANSFORMER Results:
+Time: 1.0354s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 7
+  FP: 0
+  FN: 0
+  TN: 18
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8050
+  Val Loss: 0.6814
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7835
+  Val Loss: 0.6719
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7752
+  Val Loss: 0.6663
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7483
+  Val Loss: 0.6496
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7052
+  Val Loss: 0.6425
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7132
+  Val Loss: 0.6217
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6702
+  Val Loss: 0.6047
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6671
+  Val Loss: 0.5758
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6398
+  Val Loss: 0.5359
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6282
+  Val Loss: 0.5051
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5051
+
+DEEP_DAG Results:
+Time: 0.8093s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 0.8750
+  recall: 1.0000
+  f1: 0.9333
+  accuracy: 0.9600
+  specificity: 0.9444
+  TP: 7
+  FP: 1
+  FN: 0
+  TN: 17
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]
+ [0 0 1 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #17
+Node != 5, continue to save time
+
+Processing dataset #18
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8021
+  Val Loss: 0.6764
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7866
+  Val Loss: 0.6664
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7722
+  Val Loss: 0.6552
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7652
+  Val Loss: 0.6430
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7386
+  Val Loss: 0.6299
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7300
+  Val Loss: 0.6145
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7023
+  Val Loss: 0.5965
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6784
+  Val Loss: 0.5759
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6520
+  Val Loss: 0.5531
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6263
+  Val Loss: 0.5302
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5302
+
+TCN Results:
+Time: 0.6382s
+Metrics:
+  threshold: 0.1000
+  shd: 4.0000
+  precision: 0.5556
+  recall: 1.0000
+  f1: 0.7143
+  accuracy: 0.8400
+  specificity: 0.8000
+  TP: 5
+  FP: 4
+  FN: 0
+  TN: 16
+
+Predicted adjacency matrix:
+[[0 1 1 0 1]
+ [0 1 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 1 0 0 1]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7182
+  Val Loss: 0.5808
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.6523
+  Val Loss: 0.5211
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.5945
+  Val Loss: 0.4692
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5424
+  Val Loss: 0.4226
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.4957
+  Val Loss: 0.3807
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4530
+  Val Loss: 0.3427
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4139
+  Val Loss: 0.3080
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.3775
+  Val Loss: 0.2762
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3443
+  Val Loss: 0.2471
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3135
+  Val Loss: 0.2208
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2208
+
+TRANSFORMER Results:
+Time: 0.9047s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8229
+  Val Loss: 0.6806
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7969
+  Val Loss: 0.6687
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7749
+  Val Loss: 0.6568
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7500
+  Val Loss: 0.6411
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7184
+  Val Loss: 0.6191
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7040
+  Val Loss: 0.6091
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6866
+  Val Loss: 0.5811
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6601
+  Val Loss: 0.5366
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6678
+  Val Loss: 0.4732
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6396
+  Val Loss: 0.3983
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.3983
+
+DEEP_DAG Results:
+Time: 0.6147s
+Metrics:
+  threshold: 0.1000
+  shd: 5.0000
+  precision: 0.5000
+  recall: 0.6000
+  f1: 0.5455
+  accuracy: 0.8000
+  specificity: 0.8500
+  TP: 3
+  FP: 3
+  FN: 2
+  TN: 17
+
+Predicted adjacency matrix:
+[[0 0 0 0 1]
+ [0 1 0 0 0]
+ [0 0 0 1 0]
+ [1 0 0 1 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #19
+
+Input shape: (50, 2400, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8659
+  Val Loss: 0.7087
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8378
+  Val Loss: 0.6967
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8181
+  Val Loss: 0.6837
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7996
+  Val Loss: 0.6702
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7847
+  Val Loss: 0.6586
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7701
+  Val Loss: 0.6474
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7536
+  Val Loss: 0.6349
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7351
+  Val Loss: 0.6206
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.7174
+  Val Loss: 0.6036
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.7013
+  Val Loss: 0.5837
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5837
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+TCN Results:
+Time: 0.7652s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 1.0000
+  recall: 0.6000
+  f1: 0.7500
+  accuracy: 0.9200
+  specificity: 1.0000
+  TP: 3
+  FP: 0
+  FN: 2
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 2400, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+Epoch 5:
+  Train Loss: 0.8000
+  Val Loss: 0.6653
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7487
+  Val Loss: 0.6153
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6948
+  Val Loss: 0.5601
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6351
+  Val Loss: 0.5028
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5770
+  Val Loss: 0.4502
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.5251
+  Val Loss: 0.4049
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4798
+  Val Loss: 0.3655
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4392
+  Val Loss: 0.3304
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.4023
+  Val Loss: 0.2985
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3685
+  Val Loss: 0.2693
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2693
+
+TRANSFORMER Results:
+Time: 256.4502s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.8000
+  recall: 0.8000
+  f1: 0.8000
+  accuracy: 0.9200
+  specificity: 0.9500
+  TP: 4
+  FP: 1
+  FN: 1
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 1 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 2400, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8605
+  Val Loss: 0.6893
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8320
+  Val Loss: 0.6811
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8034
+  Val Loss: 0.6703
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7799
+  Val Loss: 0.6573
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7669
+  Val Loss: 0.6508
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7405
+  Val Loss: 0.6348
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7311
+  Val Loss: 0.6266
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7098
+  Val Loss: 0.6128
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6761
+  Val Loss: 0.5858
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6752
+  Val Loss: 0.5462
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5462
+
+DEEP_DAG Results:
+Time: 0.5256s
+Metrics:
+  threshold: 0.1000
+  shd: 3.0000
+  precision: 0.6667
+  recall: 0.8000
+  f1: 0.7273
+  accuracy: 0.8800
+  specificity: 0.9000
+  TP: 4
+  FP: 2
+  FN: 1
+  TN: 18
+
+Predicted adjacency matrix:
+[[0 1 1 1 1]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #20
+
+Input shape: (50, 2400, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7841
+  Val Loss: 0.6657
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7601
+  Val Loss: 0.6436
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7343
+  Val Loss: 0.6209
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7032
+  Val Loss: 0.5947
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.6691
+  Val Loss: 0.5653
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.6565
+  Val Loss: 0.5327
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.5986
+  Val Loss: 0.4964
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.5625
+  Val Loss: 0.4603
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.5223
+  Val Loss: 0.4241
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.4630
+  Val Loss: 0.3882
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.3882
+
+TCN Results:
+Time: 0.5247s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.7143
+  recall: 1.0000
+  f1: 0.8333
+  accuracy: 0.9200
+  specificity: 0.9000
+  TP: 5
+  FP: 2
+  FN: 0
+  TN: 18
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 1 1 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 2400, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7824
+  Val Loss: 0.6511
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7422
+  Val Loss: 0.6101
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6962
+  Val Loss: 0.5646
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6448
+  Val Loss: 0.5154
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5908
+  Val Loss: 0.4646
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.5361
+  Val Loss: 0.4145
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4844
+  Val Loss: 0.3673
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4362
+  Val Loss: 0.3243
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3927
+  Val Loss: 0.2860
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3538
+  Val Loss: 0.2522
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2522
+
+TRANSFORMER Results:
+Time: 257.4073s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.7143
+  recall: 1.0000
+  f1: 0.8333
+  accuracy: 0.9200
+  specificity: 0.9000
+  TP: 5
+  FP: 2
+  FN: 0
+  TN: 18
+
+Predicted adjacency matrix:
+[[0 1 1 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 1 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 2400, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8882
+  Val Loss: 0.6893
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8489
+  Val Loss: 0.6822
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8343
+  Val Loss: 0.6743
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7975
+  Val Loss: 0.6657
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7812
+  Val Loss: 0.6572
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7625
+  Val Loss: 0.6602
+  Learning Rate: 0.000500
+Early stopping at epoch 31 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.6526
+
+DEEP_DAG Results:
+Time: 0.4117s
+Metrics:
+  threshold: 0.1000
+  shd: 7.0000
+  precision: 0.3750
+  recall: 0.6000
+  f1: 0.4615
+  accuracy: 0.7200
+  specificity: 0.7500
+  TP: 3
+  FP: 5
+  FN: 2
+  TN: 15
+
+Predicted adjacency matrix:
+[[0 1 1 0 0]
+ [0 1 0 1 0]
+ [1 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 1]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #21
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7940
+  Val Loss: 0.6788
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7737
+  Val Loss: 0.6652
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7559
+  Val Loss: 0.6504
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7398
+  Val Loss: 0.6349
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7066
+  Val Loss: 0.6178
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.6844
+  Val Loss: 0.5988
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6628
+  Val Loss: 0.5775
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6258
+  Val Loss: 0.5556
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.5919
+  Val Loss: 0.5304
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.5594
+  Val Loss: 0.5029
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5029
+
+TCN Results:
+Time: 0.6768s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 0.8333
+  recall: 1.0000
+  f1: 0.9091
+  accuracy: 0.9600
+  specificity: 0.9500
+  TP: 5
+  FP: 1
+  FN: 0
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8009
+  Val Loss: 0.6664
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7579
+  Val Loss: 0.6206
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7055
+  Val Loss: 0.5661
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6432
+  Val Loss: 0.5050
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5788
+  Val Loss: 0.4487
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.5217
+  Val Loss: 0.4020
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4714
+  Val Loss: 0.3624
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4267
+  Val Loss: 0.3281
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3860
+  Val Loss: 0.2982
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3494
+  Val Loss: 0.2721
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2721
+
+TRANSFORMER Results:
+Time: 1.0533s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8608
+  Val Loss: 0.7047
+  Learning Rate: 0.000500
+Early stopping at epoch 6 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.6953
+
+DEEP_DAG Results:
+Time: 0.0914s
+Metrics:
+  threshold: 0.1000
+  shd: 13.0000
+  precision: 0.1667
+  recall: 0.4000
+  f1: 0.2353
+  accuracy: 0.4800
+  specificity: 0.5000
+  TP: 2
+  FP: 10
+  FN: 3
+  TN: 10
+
+Predicted adjacency matrix:
+[[0 1 1 0 0]
+ [0 0 1 1 1]
+ [0 0 1 0 0]
+ [0 1 1 1 0]
+ [1 1 0 0 1]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #22
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8240
+  Val Loss: 0.6919
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8079
+  Val Loss: 0.6820
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7964
+  Val Loss: 0.6706
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7801
+  Val Loss: 0.6588
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7708
+  Val Loss: 0.6462
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7496
+  Val Loss: 0.6310
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7302
+  Val Loss: 0.6131
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6964
+  Val Loss: 0.5900
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6584
+  Val Loss: 0.5603
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6271
+  Val Loss: 0.5255
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5255
+
+TCN Results:
+Time: 0.6485s
+Metrics:
+  threshold: 0.1000
+  shd: 3.0000
+  precision: 0.6250
+  recall: 1.0000
+  f1: 0.7692
+  accuracy: 0.8800
+  specificity: 0.8500
+  TP: 5
+  FP: 3
+  FN: 0
+  TN: 17
+
+Predicted adjacency matrix:
+[[0 1 0 1 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 1 0 1 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+Training TRANSFORMER model...
+Epoch 5:
+  Train Loss: 0.7505
+  Val Loss: 0.6164
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.6943
+  Val Loss: 0.5626
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6380
+  Val Loss: 0.5090
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5830
+  Val Loss: 0.4589
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5334
+  Val Loss: 0.4134
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4869
+  Val Loss: 0.3721
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4450
+  Val Loss: 0.3345
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4067
+  Val Loss: 0.3003
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3715
+  Val Loss: 0.2692
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3390
+  Val Loss: 0.2409
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2409
+
+TRANSFORMER Results:
+Time: 1.1394s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 0.8333
+  recall: 1.0000
+  f1: 0.9091
+  accuracy: 0.9600
+  specificity: 0.9500
+  TP: 5
+  FP: 1
+  FN: 0
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [1 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8652
+  Val Loss: 0.6761
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8371
+  Val Loss: 0.6607
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8186
+  Val Loss: 0.6459
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7811
+  Val Loss: 0.6312
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7562
+  Val Loss: 0.6202
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7310
+  Val Loss: 0.6080
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7249
+  Val Loss: 0.6089
+  Learning Rate: 0.001000
+Early stopping at epoch 37 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.6068
+
+DEEP_DAG Results:
+Time: 0.6092s
+Metrics:
+  threshold: 0.1000
+  shd: 4.0000
+  precision: 0.5714
+  recall: 0.8000
+  f1: 0.6667
+  accuracy: 0.8400
+  specificity: 0.8500
+  TP: 4
+  FP: 3
+  FN: 1
+  TN: 17
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [1 0 0 0 1]
+ [0 0 0 1 0]
+ [0 1 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #23
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+Epoch 5:
+  Train Loss: 0.8266
+  Val Loss: 0.6924
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8051
+  Val Loss: 0.6743
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7796
+  Val Loss: 0.6575
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7667
+  Val Loss: 0.6394
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7406
+  Val Loss: 0.6200
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7143
+  Val Loss: 0.5988
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6853
+  Val Loss: 0.5746
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6632
+  Val Loss: 0.5471
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6127
+  Val Loss: 0.5196
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.5793
+  Val Loss: 0.4886
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4886
+
+TCN Results:
+Time: 0.5857s
+Metrics:
+  threshold: 0.1000
+  shd: 3.0000
+  precision: 0.6250
+  recall: 1.0000
+  f1: 0.7692
+  accuracy: 0.8800
+  specificity: 0.8500
+  TP: 5
+  FP: 3
+  FN: 0
+  TN: 17
+
+Predicted adjacency matrix:
+[[1 1 0 0 1]
+ [0 0 1 0 1]
+ [0 0 0 1 0]
+ [0 0 1 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7953
+  Val Loss: 0.6564
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7313
+  Val Loss: 0.5972
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6711
+  Val Loss: 0.5410
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6111
+  Val Loss: 0.4842
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5508
+  Val Loss: 0.4297
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4944
+  Val Loss: 0.3794
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4443
+  Val Loss: 0.3347
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.3991
+  Val Loss: 0.2956
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3605
+  Val Loss: 0.2614
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3257
+  Val Loss: 0.2314
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2314
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+TRANSFORMER Results:
+Time: 1.1029s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+Epoch 5:
+  Train Loss: 0.8477
+  Val Loss: 0.6857
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8224
+  Val Loss: 0.6755
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8009
+  Val Loss: 0.6639
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7794
+  Val Loss: 0.6521
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7691
+  Val Loss: 0.6430
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7427
+  Val Loss: 0.6213
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7281
+  Val Loss: 0.6034
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7177
+  Val Loss: 0.5796
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6934
+  Val Loss: 0.5625
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6572
+  Val Loss: 0.5318
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5318
+
+DEEP_DAG Results:
+Time: 0.6670s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.8000
+  recall: 0.8000
+  f1: 0.8000
+  accuracy: 0.9200
+  specificity: 0.9500
+  TP: 4
+  FP: 1
+  FN: 1
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 0 0 0 1]
+ [0 0 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #24
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8373
+  Val Loss: 0.6938
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8163
+  Val Loss: 0.6855
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7936
+  Val Loss: 0.6709
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7728
+  Val Loss: 0.6538
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7561
+  Val Loss: 0.6342
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7233
+  Val Loss: 0.6138
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7061
+  Val Loss: 0.5907
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6653
+  Val Loss: 0.5650
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6384
+  Val Loss: 0.5366
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.5943
+  Val Loss: 0.5043
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5043
+
+TCN Results:
+Time: 0.5035s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 0.8333
+  recall: 1.0000
+  f1: 0.9091
+  accuracy: 0.9600
+  specificity: 0.9500
+  TP: 5
+  FP: 1
+  FN: 0
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 1 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7579
+  Val Loss: 0.6109
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.6638
+  Val Loss: 0.5090
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.5820
+  Val Loss: 0.4335
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5158
+  Val Loss: 0.3750
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.4600
+  Val Loss: 0.3292
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4138
+  Val Loss: 0.2921
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.3749
+  Val Loss: 0.2608
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.3405
+  Val Loss: 0.2333
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3102
+  Val Loss: 0.2090
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.2834
+  Val Loss: 0.1874
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.1874
+
+TRANSFORMER Results:
+Time: 0.8266s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 200, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8450
+  Val Loss: 0.6895
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8040
+  Val Loss: 0.6758
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7931
+  Val Loss: 0.6697
+  Learning Rate: 0.001000
+Early stopping at epoch 19 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.6690
+
+DEEP_DAG Results:
+Time: 0.2909s
+Metrics:
+  threshold: 0.1000
+  shd: 5.0000
+  precision: 0.5000
+  recall: 0.8000
+  f1: 0.6154
+  accuracy: 0.8000
+  specificity: 0.8000
+  TP: 4
+  FP: 4
+  FN: 1
+  TN: 16
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 1 0 0 1]
+ [0 0 0 0 1]
+ [0 1 0 1 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #25
+
+Input shape: (50, 100, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7647
+  Val Loss: 0.6590
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7426
+  Val Loss: 0.6358
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7193
+  Val Loss: 0.6104
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6900
+  Val Loss: 0.5833
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.6558
+  Val Loss: 0.5548
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.6174
+  Val Loss: 0.5243
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.5833
+  Val Loss: 0.4930
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.5298
+  Val Loss: 0.4576
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.5132
+  Val Loss: 0.4210
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.4597
+  Val Loss: 0.3837
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.3837
+
+TCN Results:
+Time: 0.5614s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 0.8333
+  recall: 1.0000
+  f1: 0.9091
+  accuracy: 0.9600
+  specificity: 0.9500
+  TP: 5
+  FP: 1
+  FN: 0
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 100, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7516
+  Val Loss: 0.6109
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.6787
+  Val Loss: 0.5415
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6111
+  Val Loss: 0.4783
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5498
+  Val Loss: 0.4251
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.4987
+  Val Loss: 0.3793
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4512
+  Val Loss: 0.3385
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4094
+  Val Loss: 0.3016
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.3704
+  Val Loss: 0.2683
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3355
+  Val Loss: 0.2384
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3042
+  Val Loss: 0.2117
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2117
+
+TRANSFORMER Results:
+Time: 0.8947s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 100, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8470
+  Val Loss: 0.6872
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8227
+  Val Loss: 0.6760
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8081
+  Val Loss: 0.6642
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7721
+  Val Loss: 0.6409
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7612
+  Val Loss: 0.6141
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7279
+  Val Loss: 0.5795
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7289
+  Val Loss: 0.5175
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6889
+  Val Loss: 0.4388
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6720
+  Val Loss: 0.3733
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6714
+  Val Loss: 0.3237
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.3237
+
+DEEP_DAG Results:
+Time: 0.5298s
+Metrics:
+  threshold: 0.1000
+  shd: 3.0000
+  precision: 0.6250
+  recall: 1.0000
+  f1: 0.7692
+  accuracy: 0.8800
+  specificity: 0.8500
+  TP: 5
+  FP: 3
+  FN: 0
+  TN: 17
+
+Predicted adjacency matrix:
+[[1 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]
+ [0 0 1 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #26
+
+Input shape: (50, 50, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8254
+  Val Loss: 0.7023
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8136
+  Val Loss: 0.6869
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.8006
+  Val Loss: 0.6766
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7880
+  Val Loss: 0.6669
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7776
+  Val Loss: 0.6567
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7660
+  Val Loss: 0.6459
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7522
+  Val Loss: 0.6332
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.7328
+  Val Loss: 0.6181
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.7131
+  Val Loss: 0.5994
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6862
+  Val Loss: 0.5787
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5787
+
+TCN Results:
+Time: 0.6691s
+Metrics:
+  threshold: 0.1000
+  shd: 2.0000
+  precision: 0.8000
+  recall: 0.8000
+  f1: 0.8000
+  accuracy: 0.9200
+  specificity: 0.9500
+  TP: 4
+  FP: 1
+  FN: 1
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [1 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 50, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7921
+  Val Loss: 0.6490
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7062
+  Val Loss: 0.5682
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6403
+  Val Loss: 0.5048
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.5792
+  Val Loss: 0.4486
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5258
+  Val Loss: 0.3994
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.4779
+  Val Loss: 0.3571
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4368
+  Val Loss: 0.3204
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4006
+  Val Loss: 0.2884
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3672
+  Val Loss: 0.2599
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3374
+  Val Loss: 0.2342
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2342
+
+TRANSFORMER Results:
+Time: 0.9051s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 50, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8515
+  Val Loss: 0.6693
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8184
+  Val Loss: 0.6488
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7950
+  Val Loss: 0.6296
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7633
+  Val Loss: 0.6215
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7345
+  Val Loss: 0.6089
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7218
+  Val Loss: 0.5977
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.7034
+  Val Loss: 0.5808
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6900
+  Val Loss: 0.5576
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6617
+  Val Loss: 0.5250
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6591
+  Val Loss: 0.4971
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4971
+
+DEEP_DAG Results:
+Time: 0.6195s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #27
+
+Input shape: (50, 50, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8286
+  Val Loss: 0.6894
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8033
+  Val Loss: 0.6753
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7810
+  Val Loss: 0.6598
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7607
+  Val Loss: 0.6421
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7349
+  Val Loss: 0.6217
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7069
+  Val Loss: 0.5986
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6789
+  Val Loss: 0.5713
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6576
+  Val Loss: 0.5413
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6086
+  Val Loss: 0.5093
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.5610
+  Val Loss: 0.4756
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4756
+
+TCN Results:
+Time: 0.5596s
+Metrics:
+  threshold: 0.1000
+  shd: 3.0000
+  precision: 0.7500
+  recall: 0.6000
+  f1: 0.6667
+  accuracy: 0.8800
+  specificity: 0.9500
+  TP: 3
+  FP: 1
+  FN: 2
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [1 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 50, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7965
+  Val Loss: 0.6654
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7627
+  Val Loss: 0.6284
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7167
+  Val Loss: 0.5833
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6612
+  Val Loss: 0.5302
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.6001
+  Val Loss: 0.4737
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.5411
+  Val Loss: 0.4194
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4863
+  Val Loss: 0.3703
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4370
+  Val Loss: 0.3265
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3938
+  Val Loss: 0.2876
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3540
+  Val Loss: 0.2533
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2533
+
+TRANSFORMER Results:
+Time: 0.9657s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 50, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8332
+  Val Loss: 0.6718
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.8162
+  Val Loss: 0.6507
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7814
+  Val Loss: 0.6373
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7582
+  Val Loss: 0.6273
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7369
+  Val Loss: 0.6195
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.7081
+  Val Loss: 0.6061
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6871
+  Val Loss: 0.5901
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.6611
+  Val Loss: 0.5638
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.6633
+  Val Loss: 0.5352
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.6245
+  Val Loss: 0.5188
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.5188
+
+DEEP_DAG Results:
+Time: 0.5010s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Processing dataset #28
+
+Input shape: (50, 100, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TCN model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.8317
+  Val Loss: 0.6845
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7961
+  Val Loss: 0.6668
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.7631
+  Val Loss: 0.6448
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.7328
+  Val Loss: 0.6188
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.7020
+  Val Loss: 0.5906
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.6625
+  Val Loss: 0.5601
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.6413
+  Val Loss: 0.5275
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.5952
+  Val Loss: 0.4913
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.5433
+  Val Loss: 0.4552
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.5238
+  Val Loss: 0.4173
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.4173
+
+TCN Results:
+Time: 0.4835s
+Metrics:
+  threshold: 0.1000
+  shd: 1.0000
+  precision: 0.8333
+  recall: 1.0000
+  f1: 0.9091
+  accuracy: 0.9600
+  specificity: 0.9500
+  TP: 5
+  FP: 1
+  FN: 0
+  TN: 19
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 1 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 100, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training TRANSFORMER model...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 5:
+  Train Loss: 0.7921
+  Val Loss: 0.6573
+  Learning Rate: 0.001000
+Epoch 10:
+  Train Loss: 0.7355
+  Val Loss: 0.6023
+  Learning Rate: 0.001000
+Epoch 15:
+  Train Loss: 0.6763
+  Val Loss: 0.5489
+  Learning Rate: 0.001000
+Epoch 20:
+  Train Loss: 0.6163
+  Val Loss: 0.4927
+  Learning Rate: 0.001000
+Epoch 25:
+  Train Loss: 0.5546
+  Val Loss: 0.4380
+  Learning Rate: 0.001000
+Epoch 30:
+  Train Loss: 0.5001
+  Val Loss: 0.3884
+  Learning Rate: 0.001000
+Epoch 35:
+  Train Loss: 0.4517
+  Val Loss: 0.3448
+  Learning Rate: 0.001000
+Epoch 40:
+  Train Loss: 0.4099
+  Val Loss: 0.3068
+  Learning Rate: 0.001000
+Epoch 45:
+  Train Loss: 0.3716
+  Val Loss: 0.2734
+  Learning Rate: 0.001000
+Epoch 50:
+  Train Loss: 0.3374
+  Val Loss: 0.2440
+  Learning Rate: 0.001000
+Restored best model with validation loss: 0.2440
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\torch\optim\lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+
+TRANSFORMER Results:
+Time: 0.8246s
+Metrics:
+  threshold: 0.1000
+  shd: 0.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+  accuracy: 1.0000
+  specificity: 1.0000
+  TP: 5
+  FP: 0
+  FN: 0
+  TN: 20
+
+Predicted adjacency matrix:
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Input shape: (50, 100, 5), Number of nodes: 5
+Model parameters: hidden_dim=64, nhead=2
+
+Training DEEP_DAG model...
+Epoch 5:
+  Train Loss: 0.8928
+  Val Loss: 0.7127
+  Learning Rate: 0.000500
+Early stopping at epoch 6 (no improvement for 5 epochs)
+Restored best model with validation loss: 0.6966
+
+DEEP_DAG Results:
+Time: 0.0569s
+Metrics:
+  threshold: 0.1000
+  shd: 17.0000
+  precision: 0.1667
+  recall: 0.6000
+  f1: 0.2609
+  accuracy: 0.3200
+  specificity: 0.2500
+  TP: 3
+  FP: 15
+  FN: 2
+  TN: 5
+
+Predicted adjacency matrix:
+[[1 0 1 0 0]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [0 0 1 0 1]
+ [1 1 1 0 1]]
+
+True adjacency matrix (mean):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+
+Predicted adjacency matrix shape: (5, 5)
+True adjacency matrix shape: (50, 5, 5)
+
+Average Results Across All Datasets:
+
+TCN:
+Number of successful runs: 21
+shd: 1.8571
+precision: 0.8047
+recall: 0.8980
+f1: 0.8321
+
+TRANSFORMER:
+Number of successful runs: 19
+shd: 0.4737
+precision: 0.9506
+recall: 0.9684
+f1: 0.9554
+
+DEEP_DAG:
+Number of successful runs: 21
+shd: 5.0000
+precision: 0.5931
+recall: 0.8095
+f1: 0.6695
+
+进程已结束，退出代码为 0

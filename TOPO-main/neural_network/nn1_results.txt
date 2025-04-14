@@ -1,0 +1,583 @@
+C:\Python312\python.exe D:\Final_Project\brain_connectivity_DAG\TOPO-main\brain_connectivity.py
+Using device: cuda
+
+==================================================
+Current dataset: #1
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 7535
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0308s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.8, 'fpr': 0.0, 'shd': 1, 'nnz': 4, 'precision': 1.0, 'recall': 0.8, 'F1': 0.8889, 'gscore': 0.8}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #1: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #2
+==================================================
+Skipping dataset #2 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #3
+==================================================
+Skipping dataset #3 as it has 15 nodes instead of 5
+
+==================================================
+Current dataset: #4
+==================================================
+Skipping dataset #4 as it has 50 nodes instead of 5
+
+==================================================
+Current dataset: #5
+==================================================
+Dataset info: 50 subjects, 1200 timepoints, 5 brain regions
+Original ts shape: (60000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 1200, 5)
+Combined X shape: (60000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 3013
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.1857s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #5: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #6
+==================================================
+Skipping dataset #6 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #7
+==================================================
+Dataset info: 50 subjects, 5000 timepoints, 5 brain regions
+Original ts shape: (250000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 5000, 5)
+Combined X shape: (250000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 5938
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 1.1419s
+
+Linear model metrics:
+{'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': 0.5, 'recall': 0.2, 'F1': 0.2857, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #7: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #8
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 6892
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0351s
+
+Linear model metrics:
+{'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #8: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #9
+==================================================
+Dataset info: 50 subjects, 5000 timepoints, 5 brain regions
+Original ts shape: (250000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 5000, 5)
+Combined X shape: (250000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 8356
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 1.7043s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #9: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #10
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 2650
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0192s
+
+Linear model metrics:
+{'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': 0.4, 'recall': 0.4, 'F1': 0.4, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #10: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #11
+==================================================
+Skipping dataset #11 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #12
+==================================================
+Skipping dataset #12 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #13
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 9064
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0426s
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+
+Linear model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 1.0, 'shd': 5, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #13: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #14
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 5490
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0329s
+
+Linear model metrics:
+{'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': 0.75, 'recall': 0.6, 'F1': 0.6667, 'gscore': 0.4}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #14: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #15
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 1733
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0485s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #15: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #16
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 5038
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0318s
+
+Linear model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.6667, 'shd': 7, 'nnz': 2, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Error processing dataset #16: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #17
+==================================================
+Skipping dataset #17 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #18
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 7834
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0297s
+
+Linear model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.6, 'shd': 5, 'nnz': 3, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Error processing dataset #18: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #19
+==================================================
+Dataset info: 50 subjects, 2400 timepoints, 5 brain regions
+Original ts shape: (120000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 2400, 5)
+Combined X shape: (120000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 884
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.3588s
+
+Linear model metrics:
+{'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': 0.4, 'recall': 0.4, 'F1': 0.4, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #19: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #20
+==================================================
+Dataset info: 50 subjects, 2400 timepoints, 5 brain regions
+Original ts shape: (120000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 2400, 5)
+Combined X shape: (120000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 9433
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.3406s
+
+Linear model metrics:
+{'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': 0.4, 'recall': 0.4, 'F1': 0.4, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #20: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #21
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 4469
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0474s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.6, 'fpr': 0.0, 'shd': 2, 'nnz': 3, 'precision': 1.0, 'recall': 0.6, 'F1': 0.75, 'gscore': 0.6}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #21: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #22
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 9526
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Linear model time: 0.0312s
+
+Linear model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.8, 'shd': 5, 'nnz': 4, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #22: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #23
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 1913
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0291s
+
+Linear model metrics:
+{'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': 0.4, 'recall': 0.4, 'F1': 0.4, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #23: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #24
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 3064
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0319s
+
+Linear model metrics:
+{'fdr': 0.5, 'tpr': 0.6, 'fpr': 0.6, 'shd': 3, 'nnz': 6, 'precision': 0.5, 'recall': 0.6, 'F1': 0.5455, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #24: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #25
+==================================================
+Dataset info: 50 subjects, 100 timepoints, 5 brain regions
+Original ts shape: (5000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 100, 5)
+Combined X shape: (5000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 3661
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0322s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #25: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #26
+==================================================
+Dataset info: 50 subjects, 50 timepoints, 5 brain regions
+Original ts shape: (2500, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 50, 5)
+Combined X shape: (2500, 5)
+B_true_linear shape: (5, 5)
+Random seed: 8109
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0499s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.6, 'fpr': 0.0, 'shd': 2, 'nnz': 3, 'precision': 1.0, 'recall': 0.6, 'F1': 0.75, 'gscore': 0.6}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #26: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #27
+==================================================
+Dataset info: 50 subjects, 50 timepoints, 5 brain regions
+Original ts shape: (2500, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 50, 5)
+Combined X shape: (2500, 5)
+B_true_linear shape: (5, 5)
+Random seed: 3241
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0283s
+
+Linear model metrics:
+{'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #27: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+Current dataset: #28
+==================================================
+Dataset info: 50 subjects, 100 timepoints, 5 brain regions
+Original ts shape: (5000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 100, 5)
+Combined X shape: (5000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 4680
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0088s
+
+Linear model metrics:
+{'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': 0.4, 'recall': 0.4, 'F1': 0.4, 'gscore': 0.0}
+
+>> Running neural network model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Error processing dataset #28: element 0 of tensors does not require grad and does not have a grad_fn
+
+==================================================
+SUMMARY OF RESULTS
+==================================================
+
+Linear Model - Average Metrics:
+FDR: 0.4119
+TPR: 0.4667
+FPR: 0.3556
+SHD: 2.81
+Avg Time: 0.20s
+
+进程已结束，退出代码为 0

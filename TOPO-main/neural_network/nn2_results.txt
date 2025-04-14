@@ -1,0 +1,893 @@
+C:\Python312\python.exe D:\Final_Project\brain_connectivity_DAG\TOPO-main\brain_connectivity.py
+Using device: cuda
+
+==================================================
+Current dataset: #1
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 9584
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0214s
+
+Linear model metrics:
+{'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': 0.25, 'recall': 0.2, 'F1': 0.2222, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 3.9905s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.2, 'fpr': 0.0, 'shd': 4, 'nnz': 1, 'precision': 1.0, 'recall': 0.2, 'F1': 0.3333, 'gscore': 0.2}
+
+>> Visualizing results...
+Results saved for dataset #1
+
+
+Comparison for dataset #1:
+Linear SHD: 4, F1: 0.2222
+Neural SHD: 4, F1: 0.3333
+Both models performed equally
+
+==================================================
+Current dataset: #2
+==================================================
+Skipping dataset #2 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #3
+==================================================
+Skipping dataset #3 as it has 15 nodes instead of 5
+
+==================================================
+Current dataset: #4
+==================================================
+Skipping dataset #4 as it has 50 nodes instead of 5
+
+==================================================
+Current dataset: #5
+==================================================
+Dataset info: 50 subjects, 1200 timepoints, 5 brain regions
+Original ts shape: (60000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 1200, 5)
+Combined X shape: (60000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 4216
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.2081s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 17.8505s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.0, 'fpr': 0.0, 'shd': 5, 'nnz': 0, 'precision': nan, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:233: RuntimeWarning: invalid value encountered in scalar divide
+  precision = TP/TP_FP
+Results saved for dataset #5
+
+
+Comparison for dataset #5:
+Linear SHD: 3, F1: 0.5714
+Neural SHD: 5, F1: nan
+Linear model performed better
+
+==================================================
+Current dataset: #6
+==================================================
+Skipping dataset #6 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #7
+==================================================
+Dataset info: 50 subjects, 5000 timepoints, 5 brain regions
+Original ts shape: (250000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 5000, 5)
+Combined X shape: (250000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 5169
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.7169s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 3.6655s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.2, 'fpr': 0.0, 'shd': 4, 'nnz': 1, 'precision': 1.0, 'recall': 0.2, 'F1': 0.3333, 'gscore': 0.2}
+
+>> Visualizing results...
+Results saved for dataset #7
+
+
+Comparison for dataset #7:
+Linear SHD: 3, F1: 0.5714
+Neural SHD: 4, F1: 0.3333
+Linear model performed better
+
+==================================================
+Current dataset: #8
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 8101
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0327s
+
+Linear model metrics:
+{'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 16.2375s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.2, 'fpr': 0.0, 'shd': 4, 'nnz': 1, 'precision': 1.0, 'recall': 0.2, 'F1': 0.3333, 'gscore': 0.2}
+
+>> Visualizing results...
+Results saved for dataset #8
+
+
+Comparison for dataset #8:
+Linear SHD: 1, F1: 0.8000
+Neural SHD: 4, F1: 0.3333
+Linear model performed better
+
+==================================================
+Current dataset: #9
+==================================================
+Dataset info: 50 subjects, 5000 timepoints, 5 brain regions
+Original ts shape: (250000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 5000, 5)
+Combined X shape: (250000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 5761
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 1.9536s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 15.5279s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+
+>> Visualizing results...
+Results saved for dataset #9
+
+
+Comparison for dataset #9:
+Linear SHD: 0, F1: 1.0000
+Neural SHD: 3, F1: 0.5714
+Linear model performed better
+
+==================================================
+Current dataset: #10
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 390
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0326s
+
+Linear model metrics:
+{'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': 0.4, 'recall': 0.4, 'F1': 0.4, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 23.1553s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.2, 'fpr': 0.0, 'shd': 4, 'nnz': 1, 'precision': 1.0, 'recall': 0.2, 'F1': 0.3333, 'gscore': 0.2}
+
+>> Visualizing results...
+Results saved for dataset #10
+
+
+Comparison for dataset #10:
+Linear SHD: 3, F1: 0.4000
+Neural SHD: 4, F1: 0.3333
+Linear model performed better
+
+==================================================
+Current dataset: #11
+==================================================
+Skipping dataset #11 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #12
+==================================================
+Skipping dataset #12 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #13
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 8514
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Linear model time: 0.0434s
+
+Linear model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 1.0, 'shd': 5, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 7.0108s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.0, 'fpr': 0.0, 'shd': 5, 'nnz': 0, 'precision': nan, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:233: RuntimeWarning: invalid value encountered in scalar divide
+  precision = TP/TP_FP
+Results saved for dataset #13
+
+
+Comparison for dataset #13:
+Linear SHD: 5, F1: nan
+Neural SHD: 5, F1: nan
+Both models performed equally
+
+==================================================
+Current dataset: #14
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 4278
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0305s
+
+Linear model metrics:
+{'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': 0.5, 'recall': 0.4, 'F1': 0.4444, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 5.5179s
+
+Neural model metrics:
+{'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': 0.5, 'recall': 0.2, 'F1': 0.2857, 'gscore': 0.0}
+
+>> Visualizing results...
+Results saved for dataset #14
+
+
+Comparison for dataset #14:
+Linear SHD: 3, F1: 0.4444
+Neural SHD: 4, F1: 0.2857
+Linear model performed better
+
+==================================================
+Current dataset: #15
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 4801
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0217s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 19.9245s
+
+Neural model metrics:
+{'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': 0.5, 'recall': 0.2, 'F1': 0.2857, 'gscore': 0.0}
+
+>> Visualizing results...
+Results saved for dataset #15
+
+
+Comparison for dataset #15:
+Linear SHD: 0, F1: 1.0000
+Neural SHD: 4, F1: 0.2857
+Linear model performed better
+
+==================================================
+Current dataset: #16
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 4892
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0121s
+
+Linear model metrics:
+{'fdr': 0.5, 'tpr': 0.1429, 'fpr': 0.3333, 'shd': 6, 'nnz': 2, 'precision': 0.5, 'recall': 0.1429, 'F1': 0.2222, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 13.5962s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.1429, 'fpr': 0.0, 'shd': 6, 'nnz': 1, 'precision': 1.0, 'recall': 0.1429, 'F1': 0.25, 'gscore': 0.1429}
+
+>> Visualizing results...
+Results saved for dataset #16
+
+
+Comparison for dataset #16:
+Linear SHD: 6, F1: 0.2222
+Neural SHD: 6, F1: 0.2500
+Both models performed equally
+
+==================================================
+Current dataset: #17
+==================================================
+Skipping dataset #17 as it has 10 nodes instead of 5
+
+==================================================
+Current dataset: #18
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 2977
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0215s
+
+Linear model metrics:
+{'fdr': 0.75, 'tpr': 0.2, 'fpr': 0.6, 'shd': 4, 'nnz': 4, 'precision': 0.25, 'recall': 0.2, 'F1': 0.2222, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 7.9944s
+
+Neural model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.2, 'shd': 5, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+D:\Final_Project\brain_connectivity_DAG\TOPO-main\brain_connectivity.py:36: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, axes = plt.subplots(1, 3, figsize=(15, 5))
+Results saved for dataset #18
+
+
+Comparison for dataset #18:
+Linear SHD: 4, F1: 0.2222
+Neural SHD: 5, F1: nan
+Linear model performed better
+
+==================================================
+Current dataset: #19
+==================================================
+Dataset info: 50 subjects, 2400 timepoints, 5 brain regions
+Original ts shape: (120000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 2400, 5)
+Combined X shape: (120000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 1330
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.1422s
+
+Linear model metrics:
+{'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 32.7062s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+
+>> Visualizing results...
+Results saved for dataset #19
+
+
+Comparison for dataset #19:
+Linear SHD: 1, F1: 0.8000
+Neural SHD: 3, F1: 0.5714
+Linear model performed better
+
+==================================================
+Current dataset: #20
+==================================================
+Dataset info: 50 subjects, 2400 timepoints, 5 brain regions
+Original ts shape: (120000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 2400, 5)
+Combined X shape: (120000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 8325
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.2672s
+
+Linear model metrics:
+{'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.6, 'F1': 0.6, 'gscore': 0.2}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 31.4644s
+
+Neural model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.2, 'shd': 5, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Results saved for dataset #20
+
+
+Comparison for dataset #20:
+Linear SHD: 2, F1: 0.6000
+Neural SHD: 5, F1: nan
+Linear model performed better
+
+==================================================
+Current dataset: #21
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 5269
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0420s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.6, 'fpr': 0.0, 'shd': 2, 'nnz': 3, 'precision': 1.0, 'recall': 0.6, 'F1': 0.75, 'gscore': 0.6}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 13.4747s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.2, 'fpr': 0.0, 'shd': 4, 'nnz': 1, 'precision': 1.0, 'recall': 0.2, 'F1': 0.3333, 'gscore': 0.2}
+
+>> Visualizing results...
+Results saved for dataset #21
+
+
+Comparison for dataset #21:
+Linear SHD: 2, F1: 0.7500
+Neural SHD: 4, F1: 0.3333
+Linear model performed better
+
+==================================================
+Current dataset: #22
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 3293
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0306s
+
+Linear model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.8, 'shd': 5, 'nnz': 4, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Neural model time: 9.1117s
+
+Neural model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.2, 'shd': 5, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Results saved for dataset #22
+
+
+Comparison for dataset #22:
+Linear SHD: 5, F1: nan
+Neural SHD: 5, F1: nan
+Both models performed equally
+
+==================================================
+Current dataset: #23
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 6293
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0403s
+
+Linear model metrics:
+{'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 3, 'nnz': 5, 'precision': 0.4, 'recall': 0.4, 'F1': 0.4, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 23.1026s
+
+Neural model metrics:
+{'fdr': 0.6667, 'tpr': 0.2, 'fpr': 0.4, 'shd': 5, 'nnz': 3, 'precision': 0.3333, 'recall': 0.2, 'F1': 0.25, 'gscore': 0.0}
+
+>> Visualizing results...
+Results saved for dataset #23
+
+
+Comparison for dataset #23:
+Linear SHD: 3, F1: 0.4000
+Neural SHD: 5, F1: 0.2500
+Linear model performed better
+
+==================================================
+Current dataset: #24
+==================================================
+Dataset info: 50 subjects, 200 timepoints, 5 brain regions
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 1621
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0511s
+
+Linear model metrics:
+{'fdr': 0.5, 'tpr': 0.6, 'fpr': 0.6, 'shd': 3, 'nnz': 6, 'precision': 0.5, 'recall': 0.6, 'F1': 0.5455, 'gscore': 0.0}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 6.6739s
+
+Neural model metrics:
+{'fdr': 0.6, 'tpr': 0.4, 'fpr': 0.6, 'shd': 5, 'nnz': 5, 'precision': 0.4, 'recall': 0.4, 'F1': 0.4, 'gscore': 0.0}
+
+>> Visualizing results...
+Results saved for dataset #24
+
+
+Comparison for dataset #24:
+Linear SHD: 3, F1: 0.5455
+Neural SHD: 5, F1: 0.4000
+Linear model performed better
+
+==================================================
+Current dataset: #25
+==================================================
+Dataset info: 50 subjects, 100 timepoints, 5 brain regions
+Original ts shape: (5000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 100, 5)
+Combined X shape: (5000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 2909
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0250s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 15.8589s
+
+Neural model metrics:
+{'fdr': 0.0, 'tpr': 0.0, 'fpr': 0.0, 'shd': 5, 'nnz': 0, 'precision': nan, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:233: RuntimeWarning: invalid value encountered in scalar divide
+  precision = TP/TP_FP
+Results saved for dataset #25
+
+
+Comparison for dataset #25:
+Linear SHD: 3, F1: 0.5714
+Neural SHD: 5, F1: nan
+Linear model performed better
+
+==================================================
+Current dataset: #26
+==================================================
+Dataset info: 50 subjects, 50 timepoints, 5 brain regions
+Original ts shape: (2500, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 50, 5)
+Combined X shape: (2500, 5)
+B_true_linear shape: (5, 5)
+Random seed: 8335
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0378s
+
+Linear model metrics:
+{'fdr': 0.0, 'tpr': 0.6, 'fpr': 0.0, 'shd': 2, 'nnz': 3, 'precision': 1.0, 'recall': 0.6, 'F1': 0.75, 'gscore': 0.6}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 6.6770s
+
+Neural model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.2, 'shd': 5, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Results saved for dataset #26
+
+
+Comparison for dataset #26:
+Linear SHD: 2, F1: 0.7500
+Neural SHD: 5, F1: nan
+Linear model performed better
+
+==================================================
+Current dataset: #27
+==================================================
+Dataset info: 50 subjects, 50 timepoints, 5 brain regions
+Original ts shape: (2500, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 50, 5)
+Combined X shape: (2500, 5)
+B_true_linear shape: (5, 5)
+Random seed: 9234
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0217s
+
+Linear model metrics:
+{'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.6, 'F1': 0.6, 'gscore': 0.2}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 2.9677s
+
+Neural model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.6, 'shd': 5, 'nnz': 3, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Results saved for dataset #27
+
+
+Comparison for dataset #27:
+Linear SHD: 2, F1: 0.6000
+Neural SHD: 5, F1: nan
+Linear model performed better
+
+==================================================
+Current dataset: #28
+==================================================
+Dataset info: 50 subjects, 100 timepoints, 5 brain regions
+Original ts shape: (5000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 100, 5)
+Combined X shape: (5000, 5)
+B_true_linear shape: (5, 5)
+Random seed: 5100
+
+>> Running linear model...
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: False
+Linear model time: 0.0261s
+
+Linear model metrics:
+{'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.6, 'F1': 0.6, 'gscore': 0.2}
+
+>> Running neural network model...
+Using neural network for this dataset (sufficient data)
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Using neural networks: True
+Neural model time: 5.5157s
+
+Neural model metrics:
+{'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.4, 'shd': 5, 'nnz': 2, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+>> Visualizing results...
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Results saved for dataset #28
+
+
+Comparison for dataset #28:
+Linear SHD: 2, F1: 0.6000
+Neural SHD: 5, F1: nan
+Linear model performed better
+
+==================================================
+SUMMARY OF RESULTS
+==================================================
+
+Linear Model - Average Metrics:
+FDR: 0.3714
+TPR: 0.4830
+FPR: 0.3397
+SHD: 2.71
+F1: 0.5272
+Avg Time: 0.18s
+
+Neural Network Model - Average Metrics:
+FDR: 0.3937
+TPR: 0.1401
+FPR: 0.1524
+SHD: 4.52
+F1: 0.2038
+Avg Time: 13.43s
+
+Improvement from Linear to Neural (- is better for FDR, FPR, SHD; + is better for TPR, F1):
+FDR: 0.0222
+TPR: -0.3429
+FPR: -0.1873
+SHD: 1.81
+F1: -0.3233
+
+Dataset-by-dataset comparison:
+Linear better: 17 datasets
+Neural better: 0 datasets
+Equal performance: 4 datasets
+
+进程已结束，退出代码为 0
