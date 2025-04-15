@@ -11,17 +11,35 @@ import math
 class GNNModel(nn.Module):
     def __init__(self, input_dim, hidden_dim):
         super(GNNModel, self).__init__()
+        self.input_dim = input_dim  # 添加这一行记录输入维度
         self.conv1 = GCNConv(input_dim, hidden_dim)
         self.conv2 = GCNConv(hidden_dim, hidden_dim)
         self.fc = nn.Linear(hidden_dim, input_dim)
         self._initialize_weights()
 
-    def forward(self, x, edge_index):
-        x = F.relu(self.conv1(x, edge_index))
-        x = F.dropout(x, p=0.3, training=self.training)  # 增加dropout
+    def forward(self, x, edge_index=None):
+        # 动态创建边索引(如果未提供)
+        if edge_index is None:
+            # 创建全连接图作为默认图结构
+            edge_index = []
+            for i in range(self.input_dim):
+                for j in range(self.input_dim):
+                    if i != j:  # 排除自环
+                        edge_index.append([i, j])
+            edge_index = torch.tensor(edge_index).t().contiguous().to(x.device)
+
+        # 把时间序列数据转换为节点特征
+        x_node = torch.mean(x, dim=1)  # 在时间维度上平均
+
+        # 应用GNN层
+        x = F.relu(self.conv1(x_node, edge_index))
+        x = F.dropout(x, p=0.3, training=self.training)
         x = F.relu(self.conv2(x, edge_index))
-        x = F.dropout(x, p=0.3, training=self.training)  # 增加dropout
-        return torch.sigmoid(self.fc(x))
+        x = F.dropout(x, p=0.3, training=self.training)
+
+        # 生成邻接矩阵
+        adj_pred = torch.sigmoid(self.fc(x))
+        return adj_pred.view(-1, self.input_dim, self.input_dim)
 
     def _initialize_weights(self):
         for m in self.modules():
@@ -208,8 +226,8 @@ class NeuralDAGTrainer:
         self.input_dim = input_dim
 
         # 调整隐藏层大小和层数
-        hidden_dim = min(hidden_dim, input_dim * 4)  # 限制隐藏层大小
-        num_layers = min(num_layers, 2)  # 限制层数
+        hidden_dim = min(hidden_dim, input_dim * 4)
+        num_layers = min(num_layers, 2)
 
         if model_type == 'transformer':
             hidden_dim = (hidden_dim // nhead) * nhead
@@ -220,6 +238,17 @@ class NeuralDAGTrainer:
             self.model = TransformerModel(input_dim, hidden_dim, nhead, num_layers).to(self.device)
         elif model_type == 'deep_dag':
             self.model = DeepDAGModel(input_dim, hidden_dim, dropout=0.3).to(self.device)
+        elif model_type == 'gnn':
+            # 添加GNN模型支持
+            self.model = GNNModel(input_dim, hidden_dim).to(self.device)
+
+            # 创建默认的边索引
+            edge_index = []
+            for i in range(input_dim):
+                for j in range(input_dim):
+                    if i != j:  # 排除自环
+                        edge_index.append([i, j])
+            self.default_edge_index = torch.tensor(edge_index).t().contiguous().to(self.device)
 
         # 增加L2正则化强度
         self.optimizer = torch.optim.Adam(self.model.parameters(), lr=0.001, weight_decay=0.005)
@@ -230,9 +259,6 @@ class NeuralDAGTrainer:
         )
 
         self.criterion = nn.BCELoss()
-
-        # 添加权重初始化
-        self._initialize_weights()
 
     def _initialize_weights(self):
         for m in self.model.modules():
@@ -384,26 +410,18 @@ class NeuralDAGTrainer:
 
             predictions = []
             for (batch_x,) in loader:
-                pred = self.model(batch_x)
+                # 根据模型类型提供正确的输入
+                if self.model_type == 'gnn':
+                    pred = self.model(batch_x, self.default_edge_index)
+                else:
+                    pred = self.model(batch_x)
                 predictions.append(pred.cpu().numpy())
 
             # 将所有批次预测合并
             all_predictions = np.concatenate(predictions, axis=0)
 
-            # 添加集成预测 - 使用不同阈值的平均值
-            thresholds = [0.3, 0.4, 0.5, 0.6, 0.7]
-            ensemble_preds = []
-
-            for thresh in thresholds:
-                binary_pred = (all_predictions > thresh).astype(float)
-                ensemble_preds.append(binary_pred)
-
-            # 平均所有阈值的预测
-            ensemble_result = np.mean(ensemble_preds, axis=0)
-
-            # 取最终预测的平均值
-            final_pred = np.mean(ensemble_result, axis=0)
-
+            # 返回最终预测
+            final_pred = np.mean(all_predictions, axis=0)
             return final_pred
 
     def cross_validate(self, data, net_data, n_folds=5):

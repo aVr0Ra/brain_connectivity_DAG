@@ -1,0 +1,735 @@
+C:\Python312\python.exe D:\Final_Project\brain_connectivity_DAG\dl_models\linear_model.py
+2025-04-15 17:59:02.700701: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-15 17:59:03.523637: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+
+Current dataset: # 1
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 4745
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0312s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 1 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.6667, 'tpr': 0.2, 'fpr': 0.4, 'shd': 4, 'nnz': 3, 'precision': 0.3333, 'recall': 0.2, 'F1': 0.25, 'gscore': 0.0}
+
+Current dataset: # 2
+Original ts shape: (10000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
+Combined X shape: (10000, 10)
+B_true_linear shape: (10, 10)
+random seed: 259
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 0.3835s
+Estimated B (B_est):
+[[0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 0 0 1 0 0]
+ [0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 1 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1 0 0 0 0 0]
+ [0 1 1 0 0 0 0 0 0 0]
+ [0 0 1 1 0 0 0 1 0 0]
+ [0 0 0 1 1 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0 1]
+ [0 0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 0 1 1 0]
+ [0 0 0 0 0 0 0 0 1 1]
+ [0 0 0 0 0 0 0 0 0 1]]
+Metrics: {'fdr': 0.2, 'tpr': 0.3636, 'fpr': 0.0294, 'shd': 7, 'nnz': 5, 'precision': 0.8, 'recall': 0.3636, 'F1': 0.5, 'gscore': 0.2727}
+
+Current dataset: # 3
+Original ts shape: (10000, 15)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 15)
+Combined X shape: (10000, 15)
+B_true_linear shape: (15, 15)
+random seed: 5258
+Parameter is automatically set up.
+ size_small: 22, size_large: 63, no_large_search: 1
+Linear model time: 2.0125s
+Estimated B (B_est):
+[[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 1 0 1 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1 0 0 0 0 0 0 0 0 0 0]
+ [0 1 1 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 1 0 0 0 1 0 0 0 0 1 0 0]
+ [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 1 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 1 1 0 0 0 1 0 0]
+ [0 0 0 0 0 0 0 0 1 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 1 1 0 0 1]
+ [0 0 0 0 0 0 0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 1 1 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 1 1]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]]
+Metrics: {'fdr': 0.1429, 'tpr': 0.3333, 'fpr': 0.0115, 'shd': 12, 'nnz': 7, 'precision': 0.8571, 'recall': 0.3333, 'F1': 0.48, 'gscore': 0.2778}
+
+Current dataset: # 4
+Original ts shape: (10000, 50)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 50)
+Combined X shape: (10000, 50)
+B_true_linear shape: (50, 50)
+random seed: 698
+Parameter is automatically set up.
+ size_small: 75, size_large: 588, no_large_search: 1
+Linear model time: 199.8645s
+Estimated B (B_est):
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 1]
+ [0 0 0 ... 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 ... 0 0 0]
+ [0 1 1 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 1 1 0]
+ [0 0 0 ... 0 1 1]
+ [0 0 0 ... 0 0 1]]
+Metrics: {'fdr': 0.5484, 'tpr': 0.2295, 'fpr': 0.0146, 'shd': 47, 'nnz': 31, 'precision': 0.4516, 'recall': 0.2295, 'F1': 0.3043, 'gscore': 0.0}
+
+Current dataset: # 5
+Original ts shape: (60000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 1200, 5)
+Combined X shape: (60000, 5)
+B_true_linear shape: (5, 5)
+random seed: 6507
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.2370s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.0, 'tpr': 0.4, 'fpr': 0.0, 'shd': 3, 'nnz': 2, 'precision': 1.0, 'recall': 0.4, 'F1': 0.5714, 'gscore': 0.4}
+
+Current dataset: # 6
+Original ts shape: (60000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 1200, 10)
+Combined X shape: (60000, 10)
+B_true_linear shape: (10, 10)
+random seed: 2232
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 4.1961s
+Estimated B (B_est):
+[[0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0]
+ [0 1 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 1 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1 0 0 0 0 0]
+ [0 1 1 0 0 0 0 0 0 0]
+ [0 0 1 1 0 0 0 1 0 0]
+ [0 0 0 1 1 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0 1]
+ [0 0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 0 1 1 0]
+ [0 0 0 0 0 0 0 0 1 1]
+ [0 0 0 0 0 0 0 0 0 1]]
+Metrics: {'fdr': 0.5714, 'tpr': 0.2727, 'fpr': 0.1176, 'shd': 8, 'nnz': 7, 'precision': 0.4286, 'recall': 0.2727, 'F1': 0.3333, 'gscore': 0.0}
+
+Current dataset: # 7
+Original ts shape: (250000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 5000, 5)
+Combined X shape: (250000, 5)
+B_true_linear shape: (5, 5)
+random seed: 5499
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 1.6891s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 1 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.5, 'tpr': 0.2, 'fpr': 0.2, 'shd': 4, 'nnz': 2, 'precision': 0.5, 'recall': 0.2, 'F1': 0.2857, 'gscore': 0.0}
+
+Current dataset: # 8
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 789
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0301s
+Estimated B (B_est):
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+
+Current dataset: # 9
+Original ts shape: (250000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 5000, 5)
+Combined X shape: (250000, 5)
+B_true_linear shape: (5, 5)
+random seed: 6017
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.5861s
+Estimated B (B_est):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+
+Current dataset: # 10
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 3399
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0396s
+Estimated B (B_est):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+
+Current dataset: # 11
+Original ts shape: (10000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
+Combined X shape: (10000, 10)
+B_true_linear shape: (10, 10)
+random seed: 6982
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 0.3772s
+Estimated B (B_est):
+[[0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 1 0 1 0 0]
+ [0 0 0 0 0 0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1 0 0 0 0 0]
+ [0 1 1 0 0 0 0 0 0 0]
+ [0 0 1 1 0 0 0 1 0 0]
+ [0 0 0 1 1 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0 1]
+ [0 0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 0 1 1 0]
+ [0 0 0 0 0 0 0 0 1 1]
+ [0 0 0 0 0 0 0 0 0 1]]
+Metrics: {'fdr': 0.8333, 'tpr': 0.0909, 'fpr': 0.1471, 'shd': 13, 'nnz': 6, 'precision': 0.1667, 'recall': 0.0909, 'F1': 0.1176, 'gscore': 0.0}
+
+Current dataset: # 12
+Original ts shape: (10000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
+Combined X shape: (10000, 10)
+B_true_linear shape: (10, 10)
+random seed: 9835
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 0.6678s
+Estimated B (B_est):
+[[0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 1 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1 0 0 0 0 0]
+ [0 1 1 0 0 0 0 0 0 0]
+ [0 0 1 1 0 0 0 1 0 0]
+ [0 0 0 1 1 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0 1]
+ [0 0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 0 1 1 0]
+ [0 0 0 0 0 0 0 0 1 1]
+ [0 0 0 0 0 0 0 0 0 1]]
+Metrics: {'fdr': 0.5, 'tpr': 0.0909, 'fpr': 0.0294, 'shd': 10, 'nnz': 2, 'precision': 0.5, 'recall': 0.0909, 'F1': 0.1538, 'gscore': 0.0}
+
+Current dataset: # 13
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 4731
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0417s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [1 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [1 1 1 0 0]
+ [0 1 1 1 0]
+ [0 0 1 1 1]
+ [0 0 0 1 1]]
+Metrics: {'fdr': 1.0, 'tpr': 0.0, 'fpr': 1.0, 'shd': 5, 'nnz': 1, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+Current dataset: # 14
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 4924
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Linear model time: 0.0517s
+Estimated B (B_est):
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 0]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [1 0 0 0 1]]
+Metrics: {'fdr': 0.5, 'tpr': 0.4, 'fpr': 0.4, 'shd': 3, 'nnz': 4, 'precision': 0.5, 'recall': 0.4, 'F1': 0.4444, 'gscore': 0.0}
+
+Current dataset: # 15
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 558
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0498s
+Estimated B (B_est):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.0, 'tpr': 1.0, 'fpr': 0.0, 'shd': 0, 'nnz': 5, 'precision': 1.0, 'recall': 1.0, 'F1': 1.0, 'gscore': 1.0}
+
+Current dataset: # 16
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 2932
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0196s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 1 0]
+ [0 0 1 1 1]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.0, 'tpr': 0.4286, 'fpr': 0.0, 'shd': 4, 'nnz': 3, 'precision': 1.0, 'recall': 0.4286, 'F1': 0.6, 'gscore': 0.4286}
+
+Current dataset: # 17
+Original ts shape: (10000, 10)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 10)
+Combined X shape: (10000, 10)
+B_true_linear shape: (10, 10)
+random seed: 9829
+Parameter is automatically set up.
+ size_small: 15, size_large: 28, no_large_search: 1
+Linear model time: 0.6853s
+Estimated B (B_est):
+[[0 1 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0]
+ [0 1 0 1 0 0 0 1 0 0]
+ [0 0 0 0 1 0 0 0 0 0]
+ [1 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 0 1 0 0 0 0]
+ [0 0 0 0 0 0 1 0 1 0]
+ [0 0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1 0 0 0 0 0]
+ [0 1 1 0 0 0 0 0 0 0]
+ [0 0 1 1 0 0 0 1 0 0]
+ [0 0 0 1 1 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0 1]
+ [0 0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 0 1 1 0]
+ [0 0 0 0 0 0 0 0 1 1]
+ [0 0 0 0 0 0 0 0 0 1]]
+Metrics: {'fdr': 0.3636, 'tpr': 0.6364, 'fpr': 0.1176, 'shd': 4, 'nnz': 11, 'precision': 0.6364, 'recall': 0.6364, 'F1': 0.6364, 'gscore': 0.2727}
+
+Current dataset: # 18
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 3835
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0114s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.25, 'tpr': 0.6, 'fpr': 0.2, 'shd': 2, 'nnz': 4, 'precision': 0.75, 'recall': 0.6, 'F1': 0.6667, 'gscore': 0.4}
+
+Current dataset: # 19
+Original ts shape: (120000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 2400, 5)
+Combined X shape: (120000, 5)
+B_true_linear shape: (5, 5)
+random seed: 706
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.2449s
+Estimated B (B_est):
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+
+Current dataset: # 20
+Original ts shape: (120000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 2400, 5)
+Combined X shape: (120000, 5)
+B_true_linear shape: (5, 5)
+random seed: 884
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.3640s
+Estimated B (B_est):
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 1 0 1]
+ [1 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.6, 'F1': 0.6, 'gscore': 0.2}
+
+Current dataset: # 21
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 8557
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0479s
+Estimated B (B_est):
+[[0 1 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.0, 'tpr': 0.6, 'fpr': 0.0, 'shd': 2, 'nnz': 3, 'precision': 1.0, 'recall': 0.6, 'F1': 0.75, 'gscore': 0.6}
+
+Current dataset: # 22
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 396
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0195s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 1 0 0]
+ [1 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 1.0, 'tpr': 0.0, 'fpr': 0.8, 'shd': 5, 'nnz': 4, 'precision': 0.0, 'recall': 0.0, 'F1': nan, 'gscore': 0.0}
+
+Current dataset: # 23
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 7311
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+Linear model time: 0.0405s
+Estimated B (B_est):
+[[0 0 0 0 1]
+ [1 0 0 0 0]
+ [0 1 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.6, 'F1': 0.6, 'gscore': 0.2}
+
+Current dataset: # 24
+Original ts shape: (10000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 200, 5)
+Combined X shape: (10000, 5)
+B_true_linear shape: (5, 5)
+random seed: 2341
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0391s
+Estimated B (B_est):
+[[0 0 0 0 1]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 1 1 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.6667, 'tpr': 0.4, 'fpr': 0.8, 'shd': 4, 'nnz': 6, 'precision': 0.3333, 'recall': 0.4, 'F1': 0.3636, 'gscore': 0.0}
+
+Current dataset: # 25
+Original ts shape: (5000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 100, 5)
+Combined X shape: (5000, 5)
+B_true_linear shape: (5, 5)
+random seed: 4716
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0153s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [1 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.6667, 'tpr': 0.2, 'fpr': 0.4, 'shd': 4, 'nnz': 3, 'precision': 0.3333, 'recall': 0.2, 'F1': 0.25, 'gscore': 0.0}
+
+Current dataset: # 26
+Original ts shape: (2500, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 50, 5)
+Combined X shape: (2500, 5)
+B_true_linear shape: (5, 5)
+random seed: 7045
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0243s
+Estimated B (B_est):
+[[0 0 0 0 0]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.3333, 'tpr': 0.4, 'fpr': 0.2, 'shd': 3, 'nnz': 3, 'precision': 0.6667, 'recall': 0.4, 'F1': 0.5, 'gscore': 0.2}
+
+Current dataset: # 27
+Original ts shape: (2500, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 50, 5)
+Combined X shape: (2500, 5)
+B_true_linear shape: (5, 5)
+random seed: 3697
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0337s
+Estimated B (B_est):
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.2, 'tpr': 0.8, 'fpr': 0.2, 'shd': 1, 'nnz': 5, 'precision': 0.8, 'recall': 0.8, 'F1': 0.8, 'gscore': 0.6}
+
+Current dataset: # 28
+Original ts shape: (5000, 5)
+Reshaped ts_all shape (subjects, timepoints, nodes): (50, 100, 5)
+Combined X shape: (5000, 5)
+B_true_linear shape: (5, 5)
+random seed: 3789
+Parameter is automatically set up.
+ size_small: 6, size_large: 7, no_large_search: 0
+Linear model time: 0.0260s
+Estimated B (B_est):
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 1 0 1]
+ [1 0 0 0 0]]
+True B (B_true_linear):
+[[1 1 0 0 1]
+ [0 1 1 0 0]
+ [0 0 1 1 0]
+ [0 0 0 1 1]
+ [0 0 0 0 1]]
+Metrics: {'fdr': 0.4, 'tpr': 0.6, 'fpr': 0.4, 'shd': 2, 'nnz': 5, 'precision': 0.6, 'recall': 0.6, 'F1': 0.6, 'gscore': 0.2}
+SHD mean: 5.464285714285714
+SHD variance: 74.82015306122447
+F1 mean: 0.5541230769230769
+F1 variance: 0.06242393100591716
+precision mean: 0.6234642857142857
+precision variance: 0.08576765372448979
+recall mean: 0.465925
+recall variance: 0.08489810616071428
+
+进程已结束，退出代码为 0
