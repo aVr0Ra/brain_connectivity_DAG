@@ -30,7 +30,7 @@ def process_sachs_data():
                 B_true[i, j] = 1
 
     # 用PC算法学习结构
-    model = castle.algorithms.PC()
+    model = castle.algorithms.PC(alpha=0.2)
 
     try:
         model.learn(X)
@@ -45,6 +45,9 @@ def process_sachs_data():
         }
 
     B_est = model.causal_matrix.astype(int)
+
+    print(B_est)
+    print(B_true)
 
     # 评价指标
     mt = MetricsDAG(B_est, B_true)

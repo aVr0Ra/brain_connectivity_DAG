@@ -33,3 +33,9 @@ SHD = 37
 Precision = 0.1636
 Recall = 1.0
 F1 = 0.2812
+
+TRANSFORMER_TOPO:
+shd: 6.0000
+precision: 1.0000
+recall: 0.6667
+f1: 0.8000
