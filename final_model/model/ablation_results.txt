@@ -1,0 +1,97 @@
+dataset 1-15
+
+LINEAR:
+SHD mean: 1.8888888888888888
+SHD variance: 2.9876543209876543
+F1 mean: 0.7489125
+F1 variance: 0.06897464109375
+precision mean: 0.7388888888888889
+precision variance: 0.11765432098765433
+recall mean: 0.6222222222222222
+recall variance: 0.11950617283950618
+
+TCN_TOPO:
+Number of successful runs: 9
+shd: mean=2.3333, var=1.3333
+precision: mean=0.8426, var=0.0346
+recall: mean=0.5778, var=0.0306
+F1: mean=0.6777, var=0.0298
+
+TRANSFORMER_TOPO:
+Number of successful runs: 7
+shd: mean=2.2857, var=1.3469
+precision: mean=0.9762, var=0.0034
+recall: mean=0.5429, var=0.0539
+F1: mean=0.6622, var=0.0298
+
+DEEP_DAG_TOPO:
+Number of successful runs: 9
+shd: mean=3.0000, var=2.4444
+precision: mean=0.6000, var=0.0373
+recall: mean=0.5111, var=0.0632
+F1: mean=0.5422, var=0.0517
+
+========================================================
+
+dataset 1-20:
+SHD mean: 2.1538461538461537
+SHD variance: 3.514792899408284
+precision mean: 0.7346153846153847
+precision variance: 0.09284023668639053
+recall mean: 0.5956076923076924
+recall variance: 0.10836073917159764
+F1 mean: 0.69365
+F1 variance: 0.0723722275
+
+TCN_TOPO:
+Number of successful runs: 13
+shd: mean=2.6923, var=2.2130
+precision: mean=0.8077, var=0.0314
+recall: mean=0.5714, var=0.0538
+F1: mean=0.6452, var=0.0371
+
+TRANSFORMER_TOPO:
+Number of successful runs: 11
+shd: mean=3.0909, var=1.5372
+precision: mean=0.8833, var=0.0285
+recall: mean=0.4805, var=0.0492
+F1: mean=0.5886, var=0.0305
+
+DEEP_DAG_TOPO:
+Number of successful runs: 13
+shd: mean=4.6923, var=1.1361
+precision: mean=0.5317, var=0.0666
+recall: mean=0.3912, var=0.0132
+F1: mean=0.4123, var=0.0118
+
+=======================================================
+dataset 21-28
+SHD mean: 2.875
+SHD variance: 1.859375
+precision mean: 0.5583374999999999
+precision variance: 0.10326756984374999
+recall mean: 0.45
+recall variance: 0.0675
+F1 mean: 0.5590857142857143
+F1 variance: 0.04666672979591836
+
+TCN_TOPO:
+Number of successful runs: 8
+shd: mean=3.6250, var=2.7344
+precision: mean=0.7146, var=0.1015
+recall: mean=0.4250, var=0.0644
+F1: mean=0.5837, var=0.0382
+
+TRANSFORMER_TOPO:
+Number of successful runs: 8
+shd: mean=2.6250, var=1.2344
+precision: mean=0.9583, var=0.0122
+recall: mean=0.4750, var=0.0494
+F1: mean=0.6047, var=0.0429
+
+DEEP_DAG_TOPO:
+Number of successful runs: 8
+shd: mean=3.7500, var=3.9375
+precision: mean=0.6604, var=0.0940
+recall: mean=0.4250, var=0.0544
+F1: mean=0.4920, var=0.0541

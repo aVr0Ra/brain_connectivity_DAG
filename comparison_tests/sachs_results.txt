@@ -34,6 +34,12 @@ Precision = 0.1636
 Recall = 1.0
 F1 = 0.2812
 
+线性模型：
+SHD: 30
+F1 Score: 0.2174
+Precision: 0.1786
+Recall: 0.2778
+
 TRANSFORMER_TOPO:
 shd: 6.0000
 precision: 1.0000

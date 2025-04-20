@@ -3,6 +3,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from castle import MetricsDAG
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.preprocessing import StandardScaler, RobustScaler
 from sklearn.linear_model import LinearRegression
@@ -179,7 +180,13 @@ class HybridDAGModel:
             # If topo model failed, just return neural predictions
             return neural_pred
 
+def calculate_metrics(B_est, B_true):
+    met = MetricsDAG(B_est, B_true)
+    print("Metrics:", met.metrics)
 
+    return met.metrics
+
+'''
 def calculate_metrics(B_est, B_true):
     """Calculate metrics with dynamic thresholding"""
     best_metrics = None
@@ -215,7 +222,7 @@ def calculate_metrics(B_est, B_true):
             }
 
     return best_metrics
-
+'''
 
 def run_hybrid_model(model_type, ts_data, net_data):
     """Run hybrid model training and evaluation"""
@@ -257,10 +264,7 @@ def run_hybrid_model(model_type, ts_data, net_data):
         print(f"Time: {end - start:.4f}s")
         print("Metrics:")
         for metric, value in metrics.items():
-            if metric in ['TP', 'FP', 'FN', 'TN']:
-                print(f"  {metric}: {int(value)}")
-            else:
-                print(f"  {metric}: {value:.4f}")
+            print(f"  {metric}: {value:.4f}")
 
         # Print comparison of predicted and true matrices
         print("\nPredicted adjacency matrix:")
@@ -281,12 +285,12 @@ if __name__ == '__main__':
 
     all_results = {}
 
-    for dataset in range(1, 29):
+    for dataset in range(21,29):
         print(f'\nProcessing dataset #{dataset}')
 
         # Load data
         try:
-            data = loadmat(f'../datasets/sims/sim{dataset}.mat')
+            data = loadmat(f'../../datasets/sims/sim{dataset}.mat')
             net = data['net']
             ts = data['ts']
             Nnodes = int(data['Nnodes'][0][0])
@@ -320,6 +324,8 @@ if __name__ == '__main__':
 
         all_results[dataset] = dataset_results
 
+    print(all_results)
+
     # Print average results across all datasets
     print("\nAverage Results Across All Datasets:")
     for model_type in [f"{m}_topo" for m in models]:
@@ -329,19 +335,29 @@ if __name__ == '__main__':
 
             if datasets_with_model:
                 # Calculate averages and variances for key metrics
-                metrics_to_report = ['shd', 'precision', 'recall', 'f1']
+                metrics_to_report = ['shd', 'precision', 'recall', 'F1']
                 avg_metrics = {}
                 var_metrics = {}
 
                 for metric in metrics_to_report:
-                    values = [all_results[d][model_type][metric] for d in datasets_with_model]
-                    avg_metrics[metric] = np.mean(values)
-                    var_metrics[metric] = np.var(values)
+                    # Filter out NaN values before calculating statistics
+                    values = [all_results[d][model_type][metric] for d in datasets_with_model
+                              if not np.isnan(all_results[d][model_type].get(metric, np.nan))]
+
+                    if values:  # Only calculate if there are non-NaN values
+                        avg_metrics[metric] = np.mean(values)
+                        var_metrics[metric] = np.var(values)
+                    else:
+                        avg_metrics[metric] = "N/A"
+                        var_metrics[metric] = "N/A"
 
                 print(f"\n{model_type.upper()}:")
                 print(f"Number of successful runs: {len(datasets_with_model)}")
                 for metric in metrics_to_report:
-                    print(f"{metric}: mean={avg_metrics[metric]:.4f}, var={var_metrics[metric]:.4f}")
+                    if isinstance(avg_metrics[metric], str):
+                        print(f"{metric}: No valid data (all NaN)")
+                    else:
+                        print(f"{metric}: mean={avg_metrics[metric]:.4f}, var={var_metrics[metric]:.4f}")
             else:
                 print(f"\n{model_type.upper()}: No successful runs")
         except Exception as e:
