@@ -285,7 +285,7 @@ if __name__ == '__main__':
 
     all_results = {}
 
-    for dataset in range(21,29):
+    for dataset in range(1,21):
         print(f'\nProcessing dataset #{dataset}')
 
         # Load data

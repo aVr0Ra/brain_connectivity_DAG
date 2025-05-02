@@ -50,6 +50,8 @@ def process_sim(sim_path):
 
     B_est = model.causal_matrix.astype(int)
 
+    print(B_est)
+
     # 评价指标
     mt = MetricsDAG(B_est, B_true)
     return os.path.basename(sim_path), mt.metrics

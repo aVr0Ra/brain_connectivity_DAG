@@ -1,0 +1,726 @@
+C:\Python312\python.exe D:\Final_Project\brain_connectivity_DAG\comparison_tests\NOTEARS\netsim.py
+2025-05-02 22:34:10,374 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\backend\__init__.py[line:36] - INFO: You can use `os.environ['CASTLE_BACKEND'] = backend` to set the backend(`pytorch` or `mindspore`).
+2025-05-02 22:34:10,472 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\__init__.py[line:36] - INFO: You are using ``pytorch`` as the backend.
+开始遍历 NetSim 仿真数据并进行结构学习：
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim1.mat
+2025-05-02 22:34:10,495 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:34:10,527 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=2.129e-02, loss=13.020, rho=1.0e+00
+2025-05-02 22:34:10,540 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.125e-02, loss=10.894, rho=1.0e+00
+2025-05-02 22:34:10,554 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.089e-02, loss=10.896, rho=1.0e+01
+2025-05-02 22:34:10,576 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.829e-02, loss=10.916, rho=1.0e+02
+2025-05-02 22:34:10,611 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.098e-02, loss=11.120, rho=1.0e+03
+2025-05-02 22:34:10,668 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.501e-03, loss=13.161, rho=1.0e+04
+2025-05-02 22:34:10,720 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.965e-03, loss=11.390, rho=1.0e+04
+2025-05-02 22:34:10,827 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.166e-03, loss=12.302, rho=1.0e+05
+2025-05-02 22:34:10,928 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.056e-04, loss=21.420, rho=1.0e+06
+2025-05-02 22:34:10,995 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.584e-04, loss=11.737, rho=1.0e+06
+2025-05-02 22:34:11,101 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=5.844e-05, loss=12.157, rho=1.0e+07
+2025-05-02 22:34:11,182 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=3.553e-05, loss=11.782, rho=1.0e+07
+2025-05-02 22:34:11,288 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.421e-05, loss=11.936, rho=1.0e+08
+2025-05-02 22:34:11,386 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=8.705e-06, loss=11.815, rho=1.0e+08
+2025-05-02 22:34:11,527 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.399e-06, loss=11.906, rho=1.0e+09
+2025-05-02 22:34:11,626 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.037e-06, loss=11.834, rho=1.0e+09
+2025-05-02 22:34:11,778 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=7.811e-07, loss=11.886, rho=1.0e+10
+2025-05-02 22:34:11,884 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=4.651e-07, loss=11.844, rho=1.0e+10
+2025-05-02 22:34:12,067 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.776e-07, loss=11.872, rho=1.0e+11
+2025-05-02 22:34:12,223 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.035e-07, loss=11.849, rho=1.0e+11
+2025-05-02 22:34:12,270 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=4.657e-08, loss=11.864, rho=1.0e+12
+2025-05-02 22:34:12,600 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.026e-08, loss=12.005, rho=1.0e+13
+2025-05-02 22:34:12,686 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=5.331e-09, loss=11.853, rho=1.0e+13
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]]
+SHD =  5  F1 =  nan  Precision =  0.0  Recall =  0.0
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim10.mat
+2025-05-02 22:34:12,875 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=1.823e-09, loss=11.857, rho=1.0e+14
+2025-05-02 22:34:12,875 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+2025-05-02 22:34:12,885 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:34:12,927 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=4.180e-02, loss=16.138, rho=1.0e+00
+2025-05-02 22:34:12,943 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.162e-02, loss=11.336, rho=1.0e+00
+2025-05-02 22:34:12,964 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.008e-02, loss=11.344, rho=1.0e+01
+2025-05-02 22:34:12,990 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.149e-02, loss=11.423, rho=1.0e+02
+2025-05-02 22:34:13,034 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.621e-02, loss=12.209, rho=1.0e+03
+2025-05-02 22:34:13,124 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=6.286e-03, loss=20.073, rho=1.0e+04
+2025-05-02 22:34:13,230 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.426e-03, loss=12.385, rho=1.0e+04
+2025-05-02 22:34:13,395 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.237e-03, loss=14.163, rho=1.0e+05
+2025-05-02 22:34:13,452 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=7.703e-04, loss=12.607, rho=1.0e+05
+2025-05-02 22:34:13,536 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=3.235e-04, loss=13.295, rho=1.0e+06
+2025-05-02 22:34:13,663 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=9.086e-05, loss=20.177, rho=1.0e+07
+2025-05-02 22:34:13,742 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=4.941e-05, loss=12.869, rho=1.0e+07
+2025-05-02 22:34:13,893 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.922e-05, loss=13.241, rho=1.0e+08
+2025-05-02 22:34:13,975 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.224e-05, loss=12.922, rho=1.0e+08
+2025-05-02 22:34:14,138 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=5.364e-06, loss=13.089, rho=1.0e+09
+2025-05-02 22:34:14,382 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.869e-06, loss=14.752, rho=1.0e+10
+2025-05-02 22:34:14,575 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.185e-06, loss=13.013, rho=1.0e+10
+2025-05-02 22:34:14,903 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=5.373e-07, loss=13.170, rho=1.0e+11
+2025-05-02 22:34:15,395 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.180e-07, loss=14.743, rho=1.0e+12
+2025-05-02 22:34:15,798 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.555e-07, loss=13.121, rho=1.0e+12
+2025-05-02 22:34:16,554 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=7.944e-08, loss=13.335, rho=1.0e+13
+2025-05-02 22:34:17,695 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=3.260e-08, loss=15.473, rho=1.0e+14
+2025-05-02 22:34:17,724 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=3.260e-08, loss=13.366, rho=1.0e+14
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+SHD =  1  F1 =  0.8889  Precision =  1.0  Recall =  0.8
+
+2025-05-02 22:34:17,760 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=3.260e-08, loss=13.844, rho=1.0e+15
+2025-05-02 22:34:17,760 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim13.mat
+2025-05-02 22:34:17,779 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:34:17,804 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=3.962e-03, loss=13.041, rho=1.0e+00
+2025-05-02 22:34:17,813 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.961e-03, loss=12.503, rho=1.0e+00
+2025-05-02 22:34:17,823 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.950e-03, loss=12.503, rho=1.0e+01
+2025-05-02 22:34:17,837 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.850e-03, loss=12.504, rho=1.0e+02
+2025-05-02 22:34:17,856 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.207e-03, loss=12.511, rho=1.0e+03
+2025-05-02 22:34:17,897 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.796e-03, loss=12.582, rho=1.0e+04
+2025-05-02 22:34:17,946 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=7.168e-04, loss=13.288, rho=1.0e+05
+2025-05-02 22:34:17,993 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=4.553e-04, loss=12.634, rho=1.0e+05
+2025-05-02 22:34:18,059 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.771e-04, loss=12.865, rho=1.0e+06
+2025-05-02 22:34:18,099 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.084e-04, loss=12.687, rho=1.0e+06
+2025-05-02 22:34:18,199 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=4.359e-05, loss=12.828, rho=1.0e+07
+2025-05-02 22:34:18,268 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=2.527e-05, loss=12.718, rho=1.0e+07
+2025-05-02 22:34:18,353 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=9.624e-06, loss=12.804, rho=1.0e+08
+2025-05-02 22:34:18,413 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=5.832e-06, loss=12.733, rho=1.0e+08
+2025-05-02 22:34:18,509 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=2.309e-06, loss=12.775, rho=1.0e+09
+2025-05-02 22:34:18,596 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.409e-06, loss=12.742, rho=1.0e+09
+2025-05-02 22:34:18,754 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=5.559e-07, loss=12.766, rho=1.0e+10
+2025-05-02 22:34:18,889 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=3.340e-07, loss=12.747, rho=1.0e+10
+2025-05-02 22:34:19,066 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.303e-07, loss=12.761, rho=1.0e+11
+2025-05-02 22:34:19,178 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=8.046e-08, loss=12.749, rho=1.0e+11
+2025-05-02 22:34:19,345 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=3.333e-08, loss=12.757, rho=1.0e+12
+2025-05-02 22:34:19,611 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.076e-08, loss=12.833, rho=1.0e+13
+2025-05-02 22:34:19,777 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=6.358e-09, loss=12.753, rho=1.0e+13
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+SHD =  5  F1 =  nan  Precision =  nan  Recall =  0.0
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim14.mat
+2025-05-02 22:34:20,073 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=2.187e-09, loss=12.758, rho=1.0e+14
+2025-05-02 22:34:20,073 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:233: RuntimeWarning: invalid value encountered in scalar divide
+  precision = TP/TP_FP
+2025-05-02 22:34:20,083 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:34:20,117 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=2.274e-02, loss=12.947, rho=1.0e+00
+2025-05-02 22:34:20,131 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.269e-02, loss=10.558, rho=1.0e+00
+2025-05-02 22:34:20,149 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.227e-02, loss=10.560, rho=1.0e+01
+2025-05-02 22:34:20,170 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.928e-02, loss=10.584, rho=1.0e+02
+2025-05-02 22:34:20,213 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.130e-02, loss=10.816, rho=1.0e+03
+2025-05-02 22:34:20,261 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.593e-03, loss=13.143, rho=1.0e+04
+2025-05-02 22:34:20,321 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.014e-03, loss=11.081, rho=1.0e+04
+2025-05-02 22:34:20,437 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.151e-03, loss=12.030, rho=1.0e+05
+2025-05-02 22:34:20,548 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.113e-04, loss=21.524, rho=1.0e+06
+2025-05-02 22:34:20,611 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.696e-04, loss=11.436, rho=1.0e+06
+2025-05-02 22:34:20,721 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=6.714e-05, loss=11.872, rho=1.0e+07
+2025-05-02 22:34:20,818 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=4.239e-05, loss=11.501, rho=1.0e+07
+2025-05-02 22:34:20,957 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.749e-05, loss=11.704, rho=1.0e+08
+2025-05-02 22:34:21,126 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=5.111e-06, loss=13.732, rho=1.0e+09
+2025-05-02 22:34:21,247 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=2.710e-06, loss=11.581, rho=1.0e+09
+2025-05-02 22:34:21,434 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=9.514e-07, loss=11.699, rho=1.0e+10
+2025-05-02 22:34:21,577 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=5.427e-07, loss=11.594, rho=1.0e+10
+2025-05-02 22:34:21,772 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.987e-07, loss=11.635, rho=1.0e+11
+2025-05-02 22:34:21,892 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.147e-07, loss=11.600, rho=1.0e+11
+2025-05-02 22:34:22,060 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=4.232e-08, loss=11.618, rho=1.0e+12
+2025-05-02 22:34:22,208 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=2.462e-08, loss=11.603, rho=1.0e+12
+2025-05-02 22:34:22,391 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=9.056e-09, loss=11.611, rho=1.0e+13
+2025-05-02 22:34:22,391 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+2025-05-02 22:34:22,401 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 1 0 1]
+ [0 0 0 0 0]]
+SHD =  4  F1 =  0.25  Precision =  0.3333  Recall =  0.2
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim15.mat
+2025-05-02 22:34:22,460 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=1.417e-01, loss=16.012, rho=1.0e+00
+2025-05-02 22:34:22,491 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.362e-01, loss=6.585, rho=1.0e+00
+2025-05-02 22:34:22,540 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.082e-01, loss=6.676, rho=1.0e+01
+2025-05-02 22:34:22,610 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.673e-02, loss=7.579, rho=1.0e+02
+2025-05-02 22:34:22,713 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.036e-02, loss=16.614, rho=1.0e+03
+2025-05-02 22:34:22,790 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.206e-02, loss=7.768, rho=1.0e+03
+2025-05-02 22:34:22,900 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=4.974e-03, loss=9.633, rho=1.0e+04
+2025-05-02 22:34:22,973 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=3.082e-03, loss=8.160, rho=1.0e+04
+2025-05-02 22:34:23,087 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.253e-03, loss=9.274, rho=1.0e+05
+2025-05-02 22:34:23,263 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=4.039e-04, loss=20.407, rho=1.0e+06
+2025-05-02 22:34:23,395 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=2.518e-04, loss=8.611, rho=1.0e+06
+2025-05-02 22:34:23,611 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.080e-04, loss=9.345, rho=1.0e+07
+2025-05-02 22:34:23,948 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=3.083e-05, loss=16.684, rho=1.0e+08
+2025-05-02 22:34:24,204 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.553e-05, loss=8.909, rho=1.0e+08
+2025-05-02 22:34:24,584 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=5.265e-06, loss=9.337, rho=1.0e+09
+2025-05-02 22:34:24,796 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.942e-06, loss=8.943, rho=1.0e+09
+2025-05-02 22:34:25,210 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.064e-06, loss=9.067, rho=1.0e+10
+2025-05-02 22:34:25,399 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=6.144e-07, loss=8.960, rho=1.0e+10
+2025-05-02 22:34:25,466 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=2.548e-07, loss=9.011, rho=1.0e+11
+2025-05-02 22:34:25,526 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.286e-07, loss=8.971, rho=1.0e+11
+2025-05-02 22:34:26,052 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=4.686e-08, loss=9.000, rho=1.0e+12
+2025-05-02 22:34:26,115 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=2.830e-08, loss=8.971, rho=1.0e+12
+2025-05-02 22:34:26,184 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=1.045e-08, loss=8.981, rho=1.0e+13
+2025-05-02 22:34:26,297 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 10] h=6.076e-09, loss=8.973, rho=1.0e+13
+[[0 1 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+SHD =  0  F1 =  1.0  Precision =  1.0  Recall =  1.0
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim16.mat
+2025-05-02 22:34:26,428 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 10] h=2.250e-09, loss=8.978, rho=1.0e+14
+2025-05-02 22:34:26,428 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+2025-05-02 22:34:26,437 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:34:26,471 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=1.732e-02, loss=13.522, rho=1.0e+00
+2025-05-02 22:34:26,482 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.730e-02, loss=10.321, rho=1.0e+00
+2025-05-02 22:34:26,501 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.711e-02, loss=10.322, rho=1.0e+01
+2025-05-02 22:34:26,523 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.565e-02, loss=10.336, rho=1.0e+02
+2025-05-02 22:34:26,564 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.063e-02, loss=10.471, rho=1.0e+03
+2025-05-02 22:34:26,638 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.005e-03, loss=11.821, rho=1.0e+04
+2025-05-02 22:34:26,845 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.542e-03, loss=25.320, rho=1.0e+05
+2025-05-02 22:34:26,964 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=8.242e-04, loss=11.150, rho=1.0e+05
+2025-05-02 22:34:27,079 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.354e-04, loss=12.220, rho=1.0e+06
+2025-05-02 22:34:27,164 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.094e-04, loss=11.317, rho=1.0e+06
+2025-05-02 22:34:27,317 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=8.385e-05, loss=11.823, rho=1.0e+07
+2025-05-02 22:34:27,521 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.760e-05, loss=16.886, rho=1.0e+08
+2025-05-02 22:34:27,632 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.691e-05, loss=11.526, rho=1.0e+08
+2025-05-02 22:34:27,823 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=7.327e-06, loss=11.869, rho=1.0e+09
+2025-05-02 22:34:28,104 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=2.638e-06, loss=15.297, rho=1.0e+10
+2025-05-02 22:34:28,312 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.694e-06, loss=11.700, rho=1.0e+10
+2025-05-02 22:34:28,939 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=8.238e-08, loss=12.013, rho=1.0e+11
+2025-05-02 22:34:28,972 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=6.114e-08, loss=11.572, rho=1.0e+11
+2025-05-02 22:34:29,025 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.766e-08, loss=11.575, rho=1.0e+12
+[[0 0 0 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+SHD =  5  F1 =  0.4444  Precision =  1.0  Recall =  0.2857
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim18.mat
+2025-05-02 22:34:29,109 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=8.249e-09, loss=11.606, rho=1.0e+13
+2025-05-02 22:34:29,109 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+2025-05-02 22:34:29,123 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:34:29,156 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=2.506e-02, loss=13.033, rho=1.0e+00
+2025-05-02 22:34:29,172 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.500e-02, loss=10.737, rho=1.0e+00
+2025-05-02 22:34:29,189 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.448e-02, loss=10.740, rho=1.0e+01
+2025-05-02 22:34:29,213 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.088e-02, loss=10.769, rho=1.0e+02
+2025-05-02 22:34:29,249 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.192e-02, loss=11.051, rho=1.0e+03
+2025-05-02 22:34:29,303 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.751e-03, loss=13.878, rho=1.0e+04
+2025-05-02 22:34:29,348 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.100e-03, loss=11.309, rho=1.0e+04
+2025-05-02 22:34:29,461 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.158e-03, loss=12.325, rho=1.0e+05
+2025-05-02 22:34:29,515 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=6.365e-04, loss=11.552, rho=1.0e+05
+2025-05-02 22:34:29,595 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.374e-04, loss=12.155, rho=1.0e+06
+2025-05-02 22:34:29,656 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.443e-04, loss=11.634, rho=1.0e+06
+2025-05-02 22:34:29,741 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=5.901e-05, loss=11.887, rho=1.0e+07
+2025-05-02 22:34:29,815 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.748e-05, loss=11.690, rho=1.0e+07
+2025-05-02 22:34:29,931 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.559e-05, loss=11.847, rho=1.0e+08
+2025-05-02 22:34:30,077 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=4.621e-06, loss=13.414, rho=1.0e+09
+2025-05-02 22:34:30,184 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.481e-06, loss=11.755, rho=1.0e+09
+2025-05-02 22:34:30,337 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=8.740e-07, loss=11.851, rho=1.0e+10
+2025-05-02 22:34:30,465 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=5.006e-07, loss=11.766, rho=1.0e+10
+2025-05-02 22:34:30,738 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.826e-07, loss=11.800, rho=1.0e+11
+2025-05-02 22:34:30,815 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.062e-07, loss=11.771, rho=1.0e+11
+2025-05-02 22:34:30,857 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=3.751e-08, loss=11.786, rho=1.0e+12
+2025-05-02 22:34:31,075 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=2.305e-08, loss=11.774, rho=1.0e+12
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]]
+SHD =  3  F1 =  0.5  Precision =  0.6667  Recall =  0.4
+
+2025-05-02 22:34:31,333 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=8.472e-09, loss=11.781, rho=1.0e+13
+2025-05-02 22:34:31,333 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim19.mat
+2025-05-02 22:34:31,399 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=120000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:34:31,865 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=5.282e-02, loss=11.147, rho=1.0e+00
+2025-05-02 22:34:32,086 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.237e-02, loss=8.250, rho=1.0e+00
+2025-05-02 22:34:32,359 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.891e-02, loss=8.263, rho=1.0e+01
+2025-05-02 22:34:32,770 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.393e-02, loss=8.388, rho=1.0e+02
+2025-05-02 22:34:33,377 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.534e-02, loss=9.644, rho=1.0e+03
+2025-05-02 22:34:34,943 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.330e-03, loss=22.198, rho=1.0e+04
+2025-05-02 22:34:35,997 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.723e-03, loss=9.135, rho=1.0e+04
+2025-05-02 22:34:37,157 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.018e-03, loss=10.414, rho=1.0e+05
+2025-05-02 22:34:38,033 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=5.980e-04, loss=9.275, rho=1.0e+05
+2025-05-02 22:34:39,342 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.326e-04, loss=9.741, rho=1.0e+06
+2025-05-02 22:34:40,333 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.410e-04, loss=9.360, rho=1.0e+06
+2025-05-02 22:34:41,830 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=5.545e-05, loss=9.604, rho=1.0e+07
+2025-05-02 22:34:42,967 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.404e-05, loss=9.410, rho=1.0e+07
+2025-05-02 22:34:44,770 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.398e-05, loss=9.548, rho=1.0e+08
+2025-05-02 22:34:47,547 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=4.753e-06, loss=10.932, rho=1.0e+09
+2025-05-02 22:34:49,250 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=3.066e-06, loss=9.469, rho=1.0e+09
+2025-05-02 22:34:51,746 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.382e-06, loss=9.571, rho=1.0e+10
+2025-05-02 22:34:57,772 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=4.276e-07, loss=10.587, rho=1.0e+11
+2025-05-02 22:35:02,180 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=2.230e-07, loss=9.523, rho=1.0e+11
+2025-05-02 22:35:09,060 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=2.048e-08, loss=9.605, rho=1.0e+12
+2025-05-02 22:35:10,294 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.408e-08, loss=9.508, rho=1.0e+12
+2025-05-02 22:35:11,837 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=5.928e-09, loss=9.510, rho=1.0e+13
+2025-05-02 22:35:12,992 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.709e-09, loss=9.529, rho=1.0e+14
+2025-05-02 22:35:12,992 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+[[0 0 0 0 0]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]]
+SHD =  5  F1 =  nan  Precision =  0.0  Recall =  0.0
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim20.mat
+2025-05-02 22:35:13,063 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=120000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:35:13,510 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=5.853e-02, loss=11.064, rho=1.0e+00
+2025-05-02 22:35:13,758 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.795e-02, loss=8.027, rho=1.0e+00
+2025-05-02 22:35:14,071 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.351e-02, loss=8.043, rho=1.0e+01
+2025-05-02 22:35:14,560 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.600e-02, loss=8.197, rho=1.0e+02
+2025-05-02 22:35:15,181 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.592e-02, loss=9.739, rho=1.0e+03
+2025-05-02 22:35:16,817 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.313e-03, loss=25.157, rho=1.0e+04
+2025-05-02 22:35:17,815 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.704e-03, loss=8.959, rho=1.0e+04
+2025-05-02 22:35:19,160 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=9.504e-04, loss=10.230, rho=1.0e+05
+2025-05-02 22:35:19,817 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=5.677e-04, loss=9.074, rho=1.0e+05
+2025-05-02 22:35:20,832 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.277e-04, loss=9.480, rho=1.0e+06
+2025-05-02 22:35:21,738 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.408e-04, loss=9.157, rho=1.0e+06
+2025-05-02 22:35:23,097 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=5.477e-05, loss=9.390, rho=1.0e+07
+2025-05-02 22:35:24,302 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.242e-05, loss=9.207, rho=1.0e+07
+2025-05-02 22:35:25,763 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.231e-05, loss=9.342, rho=1.0e+08
+2025-05-02 22:35:26,917 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=7.410e-06, loss=9.231, rho=1.0e+08
+2025-05-02 22:35:27,443 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.762e-06, loss=9.299, rho=1.0e+09
+2025-05-02 22:35:27,913 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=2.199e-06, loss=9.248, rho=1.0e+09
+2025-05-02 22:35:30,702 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=8.378e-07, loss=9.282, rho=1.0e+10
+2025-05-02 22:35:34,144 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=3.023e-07, loss=9.625, rho=1.0e+11
+2025-05-02 22:35:36,628 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=2.097e-07, loss=9.268, rho=1.0e+11
+2025-05-02 22:35:40,763 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.167e-07, loss=9.309, rho=1.0e+12
+2025-05-02 22:35:51,656 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=5.613e-08, loss=9.720, rho=1.0e+13
+2025-05-02 22:35:54,555 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=4.140e-08, loss=9.333, rho=1.0e+13
+2025-05-02 22:36:07,437 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=2.028e-08, loss=9.474, rho=1.0e+14
+2025-05-02 22:36:41,425 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=7.647e-09, loss=10.892, rho=1.0e+15
+2025-05-02 22:36:41,425 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+SHD =  2  F1 =  0.75  Precision =  1.0  Recall =  0.6
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim21.mat
+2025-05-02 22:36:41,461 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:36:41,490 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=1.833e-02, loss=12.958, rho=1.0e+00
+2025-05-02 22:36:41,500 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.831e-02, loss=11.043, rho=1.0e+00
+2025-05-02 22:36:41,517 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.805e-02, loss=11.044, rho=1.0e+01
+2025-05-02 22:36:41,535 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.613e-02, loss=11.059, rho=1.0e+02
+2025-05-02 22:36:41,570 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.011e-02, loss=11.210, rho=1.0e+03
+2025-05-02 22:36:41,622 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.268e-03, loss=12.723, rho=1.0e+04
+2025-05-02 22:36:41,678 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.830e-03, loss=11.476, rho=1.0e+04
+2025-05-02 22:36:41,801 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.170e-03, loss=12.296, rho=1.0e+05
+2025-05-02 22:36:41,926 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.940e-04, loss=20.493, rho=1.0e+06
+2025-05-02 22:36:41,992 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.510e-04, loss=11.802, rho=1.0e+06
+2025-05-02 22:36:42,083 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=5.524e-05, loss=12.191, rho=1.0e+07
+2025-05-02 22:36:42,154 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=3.347e-05, loss=11.842, rho=1.0e+07
+2025-05-02 22:36:42,249 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.336e-05, loss=11.979, rho=1.0e+08
+2025-05-02 22:36:42,338 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=8.140e-06, loss=11.871, rho=1.0e+08
+2025-05-02 22:36:42,460 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.114e-06, loss=11.951, rho=1.0e+09
+2025-05-02 22:36:42,578 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.828e-06, loss=11.887, rho=1.0e+09
+2025-05-02 22:36:42,724 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=6.899e-07, loss=11.931, rho=1.0e+10
+2025-05-02 22:36:42,818 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=4.117e-07, loss=11.895, rho=1.0e+10
+2025-05-02 22:36:42,970 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.637e-07, loss=11.916, rho=1.0e+11
+2025-05-02 22:36:43,075 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.034e-07, loss=11.899, rho=1.0e+11
+2025-05-02 22:36:43,248 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=4.540e-08, loss=11.911, rho=1.0e+12
+2025-05-02 22:36:43,599 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.697e-08, loss=12.031, rho=1.0e+13
+2025-05-02 22:36:43,726 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=1.141e-08, loss=11.906, rho=1.0e+13
+2025-05-02 22:36:44,052 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=6.051e-09, loss=11.919, rho=1.0e+14
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+SHD =  5  F1 =  nan  Precision =  nan  Recall =  0.0
+
+2025-05-02 22:36:44,656 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=3.186e-09, loss=12.049, rho=1.0e+15
+2025-05-02 22:36:44,656 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:233: RuntimeWarning: invalid value encountered in scalar divide
+  precision = TP/TP_FP
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim22.mat
+2025-05-02 22:36:44,691 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:36:44,728 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=2.111e-02, loss=5.688, rho=1.0e+00
+2025-05-02 22:36:44,742 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.101e-02, loss=4.751, rho=1.0e+00
+2025-05-02 22:36:44,767 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.019e-02, loss=4.753, rho=1.0e+01
+2025-05-02 22:36:44,798 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.567e-02, loss=4.773, rho=1.0e+02
+2025-05-02 22:36:44,847 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=7.738e-03, loss=4.974, rho=1.0e+03
+2025-05-02 22:36:44,928 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.619e-03, loss=6.979, rho=1.0e+04
+2025-05-02 22:36:44,993 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.509e-03, loss=4.963, rho=1.0e+04
+2025-05-02 22:36:45,101 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=5.678e-04, loss=5.271, rho=1.0e+05
+2025-05-02 22:36:45,186 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=3.307e-04, loss=5.013, rho=1.0e+05
+2025-05-02 22:36:45,283 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.241e-04, loss=5.158, rho=1.0e+06
+2025-05-02 22:36:45,372 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=7.323e-05, loss=5.037, rho=1.0e+06
+2025-05-02 22:36:45,502 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=2.786e-05, loss=5.107, rho=1.0e+07
+2025-05-02 22:36:45,603 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.660e-05, loss=5.050, rho=1.0e+07
+2025-05-02 22:36:45,758 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=6.390e-06, loss=5.085, rho=1.0e+08
+2025-05-02 22:36:45,872 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=3.832e-06, loss=5.056, rho=1.0e+08
+2025-05-02 22:36:46,021 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.470e-06, loss=5.075, rho=1.0e+09
+2025-05-02 22:36:46,136 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=8.693e-07, loss=5.060, rho=1.0e+09
+2025-05-02 22:36:46,304 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=3.253e-07, loss=5.069, rho=1.0e+10
+2025-05-02 22:36:46,435 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.887e-07, loss=5.061, rho=1.0e+10
+2025-05-02 22:36:46,569 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=7.008e-08, loss=5.066, rho=1.0e+11
+2025-05-02 22:36:46,710 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=4.056e-08, loss=5.062, rho=1.0e+11
+2025-05-02 22:36:46,830 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=1.491e-08, loss=5.064, rho=1.0e+12
+2025-05-02 22:36:46,893 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 10] h=8.686e-09, loss=5.063, rho=1.0e+12
+[[0 0 0 0 0]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 0 0 0]
+ [1 0 0 0 0]]
+SHD =  5  F1 =  nan  Precision =  0.0  Recall =  0.0
+
+2025-05-02 22:36:46,986 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 10] h=3.226e-09, loss=5.064, rho=1.0e+13
+2025-05-02 22:36:46,986 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim23.mat
+2025-05-02 22:36:47,014 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:36:47,116 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=1.217e-01, loss=9.814, rho=1.0e+00
+2025-05-02 22:36:47,164 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.135e-01, loss=2.334, rho=1.0e+00
+2025-05-02 22:36:47,234 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=7.842e-02, loss=2.400, rho=1.0e+01
+2025-05-02 22:36:47,364 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.726e-02, loss=3.067, rho=1.0e+02
+2025-05-02 22:36:47,493 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.256e-02, loss=9.732, rho=1.0e+03
+2025-05-02 22:36:47,600 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=7.776e-03, loss=2.820, rho=1.0e+03
+2025-05-02 22:36:47,743 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.189e-03, loss=3.530, rho=1.0e+04
+2025-05-02 22:36:47,941 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.131e-03, loss=10.629, rho=1.0e+05
+2025-05-02 22:36:48,078 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=7.535e-04, loss=3.143, rho=1.0e+05
+2025-05-02 22:36:48,296 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=3.529e-04, loss=3.719, rho=1.0e+06
+2025-05-02 22:36:48,631 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.219e-04, loss=9.477, rho=1.0e+07
+2025-05-02 22:36:48,911 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=7.645e-05, loss=3.536, rho=1.0e+07
+2025-05-02 22:36:49,299 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=3.525e-05, loss=4.205, rho=1.0e+08
+2025-05-02 22:36:50,100 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.316e-05, loss=10.889, rho=1.0e+09
+2025-05-02 22:36:50,917 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=8.138e-06, loss=3.959, rho=1.0e+09
+2025-05-02 22:36:51,997 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.313e-07, loss=4.738, rho=1.0e+10
+2025-05-02 22:36:52,583 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.106e-07, loss=3.871, rho=1.0e+10
+2025-05-02 22:36:53,010 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.037e-07, loss=3.876, rho=1.0e+11
+2025-05-02 22:36:53,574 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=3.247e-08, loss=3.925, rho=1.0e+12
+2025-05-02 22:36:53,644 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.774e-08, loss=3.866, rho=1.0e+12
+[[0 0 0 0 0]
+ [1 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 1 0 1]
+ [1 0 0 0 0]]
+SHD =  4  F1 =  0.2  Precision =  0.2  Recall =  0.2
+
+2025-05-02 22:36:53,694 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=5.896e-09, loss=3.871, rho=1.0e+13
+2025-05-02 22:36:53,694 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim24.mat
+2025-05-02 22:36:53,721 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:36:53,827 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=7.696e-02, loss=9.874, rho=1.0e+00
+2025-05-02 22:36:53,875 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=7.129e-02, loss=1.910, rho=1.0e+00
+2025-05-02 22:36:53,952 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.202e-02, loss=1.937, rho=1.0e+01
+2025-05-02 22:36:54,100 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.780e-02, loss=2.203, rho=1.0e+02
+2025-05-02 22:36:54,362 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.069e-02, loss=4.869, rho=1.0e+03
+2025-05-02 22:36:54,487 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=6.910e-03, loss=2.212, rho=1.0e+03
+2025-05-02 22:36:54,642 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.835e-03, loss=2.727, rho=1.0e+04
+2025-05-02 22:36:54,848 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=9.843e-04, loss=7.868, rho=1.0e+05
+2025-05-02 22:36:55,010 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=6.245e-04, loss=2.467, rho=1.0e+05
+2025-05-02 22:36:55,245 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.837e-04, loss=2.903, rho=1.0e+06
+2025-05-02 22:36:55,546 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.147e-04, loss=7.263, rho=1.0e+07
+2025-05-02 22:36:55,790 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=8.016e-05, loss=2.768, rho=1.0e+07
+2025-05-02 22:36:56,266 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=3.930e-05, loss=3.361, rho=1.0e+08
+2025-05-02 22:36:57,368 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.473e-05, loss=9.284, rho=1.0e+09
+2025-05-02 22:36:58,420 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=8.767e-06, loss=3.308, rho=1.0e+09
+2025-05-02 22:37:01,109 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.190e-07, loss=4.284, rho=1.0e+10
+2025-05-02 22:37:01,140 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.057e-07, loss=3.145, rho=1.0e+10
+2025-05-02 22:37:01,215 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=6.352e-08, loss=3.146, rho=1.0e+11
+2025-05-02 22:37:01,310 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.242e-08, loss=3.152, rho=1.0e+12
+2025-05-02 22:37:01,384 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.281e-08, loss=3.146, rho=1.0e+12
+2025-05-02 22:37:01,469 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=4.699e-09, loss=3.148, rho=1.0e+13
+2025-05-02 22:37:01,469 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 0 0]
+ [0 1 1 0 1]
+ [0 0 0 0 0]]
+SHD =  3  F1 =  0.5455  Precision =  0.5  Recall =  0.6
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim25.mat
+2025-05-02 22:37:01,493 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=5000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:37:01,515 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=1.907e-02, loss=12.889, rho=1.0e+00
+2025-05-02 22:37:01,521 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.904e-02, loss=10.807, rho=1.0e+00
+2025-05-02 22:37:01,530 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.875e-02, loss=10.809, rho=1.0e+01
+2025-05-02 22:37:01,544 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.664e-02, loss=10.825, rho=1.0e+02
+2025-05-02 22:37:01,568 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.026e-02, loss=10.989, rho=1.0e+03
+2025-05-02 22:37:01,605 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.306e-03, loss=12.625, rho=1.0e+04
+2025-05-02 22:37:01,641 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.863e-03, loss=11.251, rho=1.0e+04
+2025-05-02 22:37:01,716 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.164e-03, loss=12.086, rho=1.0e+05
+2025-05-02 22:37:01,813 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.223e-04, loss=20.430, rho=1.0e+06
+2025-05-02 22:37:01,874 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.698e-04, loss=11.607, rho=1.0e+06
+2025-05-02 22:37:01,935 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=6.327e-05, loss=12.074, rho=1.0e+07
+2025-05-02 22:37:01,987 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=3.837e-05, loss=11.661, rho=1.0e+07
+2025-05-02 22:37:02,061 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.514e-05, loss=11.842, rho=1.0e+08
+2025-05-02 22:37:02,129 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=9.109e-06, loss=11.699, rho=1.0e+08
+2025-05-02 22:37:02,212 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.443e-06, loss=11.802, rho=1.0e+09
+2025-05-02 22:37:02,275 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.010e-06, loss=11.718, rho=1.0e+09
+2025-05-02 22:37:02,382 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=7.434e-07, loss=11.772, rho=1.0e+10
+2025-05-02 22:37:02,450 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=4.293e-07, loss=11.727, rho=1.0e+10
+2025-05-02 22:37:02,556 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.582e-07, loss=11.752, rho=1.0e+11
+2025-05-02 22:37:02,625 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=9.191e-08, loss=11.731, rho=1.0e+11
+2025-05-02 22:37:02,722 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=3.399e-08, loss=11.742, rho=1.0e+12
+2025-05-02 22:37:02,752 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=1.986e-08, loss=11.733, rho=1.0e+12
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]]
+SHD =  5  F1 =  nan  Precision =  0.0  Recall =  0.0
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim26.mat
+2025-05-02 22:37:02,819 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=7.351e-09, loss=11.738, rho=1.0e+13
+2025-05-02 22:37:02,819 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+2025-05-02 22:37:02,841 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=2500, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:37:02,857 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=2.245e-02, loss=12.697, rho=1.0e+00
+2025-05-02 22:37:02,864 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.241e-02, loss=10.401, rho=1.0e+00
+2025-05-02 22:37:02,870 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.199e-02, loss=10.403, rho=1.0e+01
+2025-05-02 22:37:02,879 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.904e-02, loss=10.426, rho=1.0e+02
+2025-05-02 22:37:02,893 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.119e-02, loss=10.653, rho=1.0e+03
+2025-05-02 22:37:02,914 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.574e-03, loss=12.922, rho=1.0e+04
+2025-05-02 22:37:02,937 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.023e-03, loss=10.917, rho=1.0e+04
+2025-05-02 22:37:03,010 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.116e-03, loss=11.858, rho=1.0e+05
+2025-05-02 22:37:03,033 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=6.199e-04, loss=11.142, rho=1.0e+05
+2025-05-02 22:37:03,064 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.373e-04, loss=11.702, rho=1.0e+06
+2025-05-02 22:37:03,088 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.479e-04, loss=11.226, rho=1.0e+06
+2025-05-02 22:37:03,127 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=6.163e-05, loss=11.479, rho=1.0e+07
+2025-05-02 22:37:03,186 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.742e-05, loss=14.012, rho=1.0e+08
+2025-05-02 22:37:03,229 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=9.154e-06, loss=11.322, rho=1.0e+08
+2025-05-02 22:37:03,298 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.419e-06, loss=11.459, rho=1.0e+09
+2025-05-02 22:37:03,345 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.106e-06, loss=11.338, rho=1.0e+09
+2025-05-02 22:37:03,404 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=8.862e-07, loss=11.391, rho=1.0e+10
+2025-05-02 22:37:03,484 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=3.068e-07, loss=11.917, rho=1.0e+11
+2025-05-02 22:37:03,587 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.955e-07, loss=11.362, rho=1.0e+11
+2025-05-02 22:37:03,714 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=8.695e-08, loss=11.405, rho=1.0e+12
+2025-05-02 22:37:03,970 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=3.132e-08, loss=11.828, rho=1.0e+13
+2025-05-02 22:37:04,068 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=2.105e-08, loss=11.387, rho=1.0e+13
+2025-05-02 22:37:04,351 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.118e-08, loss=11.431, rho=1.0e+14
+[[0 0 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+SHD =  3  F1 =  0.5714  Precision =  1.0  Recall =  0.4
+
+2025-05-02 22:37:04,706 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=5.064e-09, loss=11.873, rho=1.0e+15
+2025-05-02 22:37:04,707 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+2025-05-02 22:37:04,729 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=2500, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:37:04,745 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=5.329e-02, loss=10.173, rho=1.0e+00
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim27.mat
+2025-05-02 22:37:04,752 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.276e-02, loss=7.439, rho=1.0e+00
+2025-05-02 22:37:04,762 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.880e-02, loss=7.452, rho=1.0e+01
+2025-05-02 22:37:04,777 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.326e-02, loss=7.580, rho=1.0e+02
+2025-05-02 22:37:04,795 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.485e-02, loss=8.858, rho=1.0e+03
+2025-05-02 22:37:04,850 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.087e-03, loss=21.637, rho=1.0e+04
+2025-05-02 22:37:04,879 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.521e-03, loss=8.264, rho=1.0e+04
+2025-05-02 22:37:04,916 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=9.036e-04, loss=9.429, rho=1.0e+05
+2025-05-02 22:37:04,938 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=5.466e-04, loss=8.362, rho=1.0e+05
+2025-05-02 22:37:04,971 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.223e-04, loss=8.730, rho=1.0e+06
+2025-05-02 22:37:05,000 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.378e-04, loss=8.442, rho=1.0e+06
+2025-05-02 22:37:05,037 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=5.315e-05, loss=8.665, rho=1.0e+07
+2025-05-02 22:37:05,071 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.130e-05, loss=8.489, rho=1.0e+07
+2025-05-02 22:37:05,115 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.206e-05, loss=8.617, rho=1.0e+08
+2025-05-02 22:37:05,151 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=7.396e-06, loss=8.512, rho=1.0e+08
+2025-05-02 22:37:05,211 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=3.066e-06, loss=8.578, rho=1.0e+09
+2025-05-02 22:37:05,296 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.023e-06, loss=9.232, rho=1.0e+10
+2025-05-02 22:37:05,352 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=6.416e-07, loss=8.540, rho=1.0e+10
+2025-05-02 22:37:05,482 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=2.896e-07, loss=8.587, rho=1.0e+11
+2025-05-02 22:37:05,644 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.231e-07, loss=9.058, rho=1.0e+12
+2025-05-02 22:37:05,751 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=9.227e-08, loss=8.574, rho=1.0e+12
+2025-05-02 22:37:05,884 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=5.124e-08, loss=8.642, rho=1.0e+13
+2025-05-02 22:37:06,254 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=2.136e-08, loss=9.323, rho=1.0e+14
+2025-05-02 22:37:06,266 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=2.136e-08, loss=8.677, rho=1.0e+14
+2025-05-02 22:37:06,278 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=2.136e-08, loss=8.883, rho=1.0e+15
+2025-05-02 22:37:06,278 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+[[0 1 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+SHD =  1  F1 =  0.8889  Precision =  1.0  Recall =  0.8
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim28.mat
+2025-05-02 22:37:06,311 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=5000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:37:06,335 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=4.668e-02, loss=10.525, rho=1.0e+00
+2025-05-02 22:37:06,344 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.633e-02, loss=7.946, rho=1.0e+00
+2025-05-02 22:37:06,356 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.365e-02, loss=7.956, rho=1.0e+01
+2025-05-02 22:37:06,378 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.126e-02, loss=8.054, rho=1.0e+02
+2025-05-02 22:37:06,405 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.454e-02, loss=9.035, rho=1.0e+03
+2025-05-02 22:37:06,475 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.138e-03, loss=18.840, rho=1.0e+04
+2025-05-02 22:37:06,549 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.697e-03, loss=8.743, rho=1.0e+04
+2025-05-02 22:37:06,611 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=9.513e-04, loss=9.931, rho=1.0e+05
+2025-05-02 22:37:06,646 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=5.502e-04, loss=8.873, rho=1.0e+05
+2025-05-02 22:37:06,696 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.159e-04, loss=9.280, rho=1.0e+06
+2025-05-02 22:37:06,737 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.351e-04, loss=8.945, rho=1.0e+06
+2025-05-02 22:37:06,802 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=5.604e-05, loss=9.155, rho=1.0e+07
+2025-05-02 22:37:06,903 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.690e-05, loss=11.253, rho=1.0e+08
+2025-05-02 22:37:06,961 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=9.143e-06, loss=9.030, rho=1.0e+08
+2025-05-02 22:37:07,061 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.232e-06, loss=9.159, rho=1.0e+09
+2025-05-02 22:37:07,129 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.839e-06, loss=9.045, rho=1.0e+09
+2025-05-02 22:37:07,218 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=6.716e-07, loss=9.092, rho=1.0e+10
+2025-05-02 22:37:07,268 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=3.881e-07, loss=9.052, rho=1.0e+10
+2025-05-02 22:37:07,295 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.374e-07, loss=9.072, rho=1.0e+11
+2025-05-02 22:37:07,370 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=8.505e-08, loss=9.056, rho=1.0e+11
+2025-05-02 22:37:07,459 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=3.101e-08, loss=9.064, rho=1.0e+12
+2025-05-02 22:37:07,491 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=1.797e-08, loss=9.057, rho=1.0e+12
+[[0 0 0 0 1]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+SHD =  1  F1 =  0.8  Precision =  0.8  Recall =  0.8
+
+2025-05-02 22:37:07,544 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=6.638e-09, loss=9.061, rho=1.0e+13
+2025-05-02 22:37:07,545 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim5.mat
+2025-05-02 22:37:07,610 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=60000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:37:07,825 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=2.124e-02, loss=12.990, rho=1.0e+00
+2025-05-02 22:37:07,908 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.120e-02, loss=10.835, rho=1.0e+00
+2025-05-02 22:37:08,007 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.084e-02, loss=10.837, rho=1.0e+01
+2025-05-02 22:37:08,152 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.824e-02, loss=10.857, rho=1.0e+02
+2025-05-02 22:37:08,374 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.091e-02, loss=11.060, rho=1.0e+03
+2025-05-02 22:37:08,689 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.485e-03, loss=13.091, rho=1.0e+04
+2025-05-02 22:37:09,024 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.957e-03, loss=11.327, rho=1.0e+04
+2025-05-02 22:37:10,019 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.146e-03, loss=12.232, rho=1.0e+05
+2025-05-02 22:37:10,661 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.057e-04, loss=21.285, rho=1.0e+06
+2025-05-02 22:37:11,061 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.627e-04, loss=11.668, rho=1.0e+06
+2025-05-02 22:37:11,588 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=6.242e-05, loss=12.089, rho=1.0e+07
+2025-05-02 22:37:12,040 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=3.912e-05, loss=11.722, rho=1.0e+07
+2025-05-02 22:37:12,717 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.629e-05, loss=11.898, rho=1.0e+08
+2025-05-02 22:37:13,769 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=4.923e-06, loss=13.651, rho=1.0e+09
+2025-05-02 22:37:14,489 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=2.668e-06, loss=11.794, rho=1.0e+09
+2025-05-02 22:37:15,561 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=9.448e-07, loss=11.903, rho=1.0e+10
+2025-05-02 22:37:16,498 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=5.352e-07, loss=11.807, rho=1.0e+10
+2025-05-02 22:37:18,141 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.954e-07, loss=11.847, rho=1.0e+11
+2025-05-02 22:37:18,894 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.127e-07, loss=11.813, rho=1.0e+11
+2025-05-02 22:37:20,266 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=4.142e-08, loss=11.830, rho=1.0e+12
+2025-05-02 22:37:21,057 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=2.380e-08, loss=11.816, rho=1.0e+12
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 1 0]]
+SHD =  5  F1 =  nan  Precision =  0.0  Recall =  0.0
+
+2025-05-02 22:37:22,329 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=8.852e-09, loss=11.823, rho=1.0e+13
+2025-05-02 22:37:22,329 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:235: RuntimeWarning: invalid value encountered in scalar divide
+  F1 = 2*(recall*precision)/(recall+precision)
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim7.mat
+2025-05-02 22:37:22,490 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=250000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:37:23,396 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=1.923e-02, loss=12.858, rho=1.0e+00
+2025-05-02 22:37:23,753 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.919e-02, loss=10.828, rho=1.0e+00
+2025-05-02 22:37:24,173 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.891e-02, loss=10.830, rho=1.0e+01
+2025-05-02 22:37:24,774 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.678e-02, loss=10.847, rho=1.0e+02
+2025-05-02 22:37:25,726 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.033e-02, loss=11.013, rho=1.0e+03
+2025-05-02 22:37:26,904 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=4.325e-03, loss=12.676, rho=1.0e+04
+2025-05-02 22:37:28,330 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=2.869e-03, loss=11.277, rho=1.0e+04
+2025-05-02 22:37:33,065 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.147e-03, loss=12.119, rho=1.0e+05
+2025-05-02 22:37:36,268 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.038e-04, loss=20.536, rho=1.0e+06
+2025-05-02 22:37:38,055 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.603e-04, loss=11.616, rho=1.0e+06
+2025-05-02 22:37:40,373 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=6.089e-05, loss=12.032, rho=1.0e+07
+2025-05-02 22:37:42,326 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=3.800e-05, loss=11.667, rho=1.0e+07
+2025-05-02 22:37:45,061 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=1.587e-05, loss=11.834, rho=1.0e+08
+2025-05-02 22:37:48,638 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=4.798e-06, loss=13.503, rho=1.0e+09
+2025-05-02 22:37:51,526 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=2.582e-06, loss=11.736, rho=1.0e+09
+2025-05-02 22:37:55,393 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=9.099e-07, loss=11.839, rho=1.0e+10
+2025-05-02 22:37:58,733 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=5.164e-07, loss=11.747, rho=1.0e+10
+2025-05-02 22:38:04,130 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.890e-07, loss=11.785, rho=1.0e+11
+2025-05-02 22:38:07,110 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.083e-07, loss=11.753, rho=1.0e+11
+2025-05-02 22:38:14,742 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=3.993e-08, loss=11.769, rho=1.0e+12
+2025-05-02 22:38:17,990 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=2.325e-08, loss=11.755, rho=1.0e+12
+2025-05-02 22:38:22,309 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=8.589e-09, loss=11.762, rho=1.0e+13
+2025-05-02 22:38:22,309 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\metrics\evaluation.py:233: RuntimeWarning: invalid value encountered in scalar divide
+  precision = TP/TP_FP
+2025-05-02 22:38:22,318 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=10000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+SHD =  5  F1 =  nan  Precision =  nan  Recall =  0.0
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim8.mat
+2025-05-02 22:38:22,356 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=3.060e-02, loss=13.875, rho=1.0e+00
+2025-05-02 22:38:22,371 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=3.050e-02, loss=10.280, rho=1.0e+00
+2025-05-02 22:38:22,390 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.965e-02, loss=10.284, rho=1.0e+01
+2025-05-02 22:38:22,419 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.438e-02, loss=10.326, rho=1.0e+02
+2025-05-02 22:38:22,465 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.341e-02, loss=10.748, rho=1.0e+03
+2025-05-02 22:38:22,547 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.383e-03, loss=14.962, rho=1.0e+04
+2025-05-02 22:38:22,641 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.283e-03, loss=11.014, rho=1.0e+04
+2025-05-02 22:38:22,742 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.172e-03, loss=12.318, rho=1.0e+05
+2025-05-02 22:38:22,813 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=7.006e-04, loss=11.244, rho=1.0e+05
+2025-05-02 22:38:22,901 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.953e-04, loss=11.862, rho=1.0e+06
+2025-05-02 22:38:23,044 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=9.963e-05, loss=18.040, rho=1.0e+07
+2025-05-02 22:38:23,160 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=6.025e-05, loss=11.504, rho=1.0e+07
+2025-05-02 22:38:23,316 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=2.492e-05, loss=11.951, rho=1.0e+08
+2025-05-02 22:38:23,587 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=6.523e-06, loss=16.417, rho=1.0e+09
+2025-05-02 22:38:23,796 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=3.040e-06, loss=11.649, rho=1.0e+09
+2025-05-02 22:38:24,087 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=9.502e-07, loss=11.841, rho=1.0e+10
+2025-05-02 22:38:24,289 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=5.141e-07, loss=11.657, rho=1.0e+10
+2025-05-02 22:38:24,614 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=1.869e-07, loss=11.698, rho=1.0e+11
+2025-05-02 22:38:24,712 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.088e-07, loss=11.662, rho=1.0e+11
+2025-05-02 22:38:24,821 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=4.038e-08, loss=11.678, rho=1.0e+12
+2025-05-02 22:38:24,889 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=2.360e-08, loss=11.665, rho=1.0e+12
+2025-05-02 22:38:25,015 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=8.641e-09, loss=11.672, rho=1.0e+13
+2025-05-02 22:38:25,016 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+[[0 0 0 0 1]
+ [0 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+SHD =  1  F1 =  0.8889  Precision =  1.0  Recall =  0.8
+
+CURRENT DATA: D:\Final_Project\brain_connectivity_DAG\datasets\sims\sim9.mat
+2025-05-02 22:38:25,158 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:195] - INFO: [start]: n=250000, d=5, iter_=100, h_=1e-08, rho_=1e+16
+2025-05-02 22:38:26,186 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 0] h=2.953e-02, loss=13.615, rho=1.0e+00
+2025-05-02 22:38:26,598 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.944e-02, loss=10.100, rho=1.0e+00
+2025-05-02 22:38:27,134 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.867e-02, loss=10.104, rho=1.0e+01
+2025-05-02 22:38:27,855 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=2.376e-02, loss=10.144, rho=1.0e+02
+2025-05-02 22:38:28,978 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=1.319e-02, loss=10.536, rho=1.0e+03
+2025-05-02 22:38:31,103 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 1] h=5.358e-03, loss=14.461, rho=1.0e+04
+2025-05-02 22:38:33,837 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=3.293e-03, loss=10.819, rho=1.0e+04
+2025-05-02 22:38:36,443 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 2] h=1.159e-03, loss=12.111, rho=1.0e+05
+2025-05-02 22:38:37,924 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=6.975e-04, loss=11.046, rho=1.0e+05
+2025-05-02 22:38:39,946 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=2.962e-04, loss=11.651, rho=1.0e+06
+2025-05-02 22:38:43,577 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 3] h=1.004e-04, loss=17.694, rho=1.0e+07
+2025-05-02 22:38:46,701 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=6.061e-05, loss=11.310, rho=1.0e+07
+2025-05-02 22:38:52,174 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 4] h=2.425e-05, loss=11.764, rho=1.0e+08
+2025-05-02 22:38:56,926 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=1.385e-05, loss=11.405, rho=1.0e+08
+2025-05-02 22:39:02,758 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 5] h=4.685e-06, loss=11.670, rho=1.0e+09
+2025-05-02 22:39:07,868 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=2.549e-06, loss=11.440, rho=1.0e+09
+2025-05-02 22:39:15,166 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 6] h=8.777e-07, loss=11.538, rho=1.0e+10
+2025-05-02 22:39:19,805 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=4.943e-07, loss=11.451, rho=1.0e+10
+2025-05-02 22:39:21,815 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 7] h=1.831e-07, loss=11.485, rho=1.0e+11
+2025-05-02 22:39:22,947 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=1.231e-07, loss=11.456, rho=1.0e+11
+2025-05-02 22:39:30,472 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 8] h=3.902e-08, loss=11.472, rho=1.0e+12
+2025-05-02 22:39:31,955 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=2.295e-08, loss=11.458, rho=1.0e+12
+2025-05-02 22:39:34,255 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:206] - INFO: [iter 9] h=8.535e-09, loss=11.465, rho=1.0e+13
+2025-05-02 22:39:34,256 - C:\Users\ysmor\AppData\Roaming\Python\Python312\site-packages\castle\algorithms\gradient\notears\linear.py[line:222] - INFO: FINISHED
+[[0 0 0 0 0]
+ [1 0 1 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [0 0 0 0 0]]
+SHD =  2  F1 =  0.6667  Precision =  0.75  Recall =  0.6
+
+SHD mean: 3.3333333333333335
+SHD variance: 2.984126984126984
+precision mean: 0.5694444444444444
+precision variance: 0.17840401246913584
+recall mean: 0.35646190476190476
+recall variance: 0.11682179092970521
+F1 mean: 0.6457461538461539
+F1 variance: 0.05927945017751479
+
+进程已结束，退出代码为 0
